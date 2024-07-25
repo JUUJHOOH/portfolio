@@ -149,8 +149,6 @@ $(document).ready(function (){
                 $('body').css({'background':'#d1d1d1'})
 
                 $('.navbtn_prf').addClass('opa1').removeClass('opa04').parent().siblings().find('a').removeClass('opa1').addClass('opa04');
-
-                skillsLevel();
             };
 
             //puvlishing (page 2~6)
@@ -237,45 +235,43 @@ $(document).ready(function (){
         }, 275);
     });
 
-    function skillsLevel (){
-        for (let k = 1 ; k <=8 ; k++){
-            let n;
-            $('.skillIcon:nth-of-type('+k+')').hover(function(){
-                k === 1 ? n=17 : false ;
-                k === 2 ? n=18 : false ;
-                k === 3 ? n=16 : false ;
-                k === 4 ? n=17 : false ;
-                k === 5 ? n=12 : false ;
-                k === 6 ? n=16 : false ;
-                k === 7 ? n=17 : false ;
-                k === 8 ? n=15 : false ;
+    for (let k = 1 ; k <=8 ; k++){
+        let n;
+        $('.skillIcon:nth-of-type('+k+')').hover(function(){
+            k === 1 ? n=17 : false ;
+            k === 2 ? n=18 : false ;
+            k === 3 ? n=16 : false ;
+            k === 4 ? n=17 : false ;
+            k === 5 ? n=12 : false ;
+            k === 6 ? n=16 : false ;
+            k === 7 ? n=17 : false ;
+            k === 8 ? n=15 : false ;
+            for(let i = 0; i <= n; i++){
+                setTimeout(function(){
+                    $('.skillIcon:nth-of-type('+k+') .rotateScore').css({'background':'conic-gradient(#333 '+i*5+'%, #fff0 '+i*5+'%)'});
+                }, i * 30);
+            };
+        },function(){
+            k === 1 ? n=17 : false ;
+            k === 2 ? n=18 : false ;
+            k === 3 ? n=16 : false ;
+            k === 4 ? n=17 : false ;
+            k === 5 ? n=12 : false ;
+            k === 6 ? n=16 : false ;
+            k === 7 ? n=17 : false ;
+            k === 8 ? n=15 : false ;
+            $('.skillIcon:nth-of-type('+k+')').css({'pointer-events':'none'});
+            setTimeout(function(){
                 for(let i = 0; i <= n; i++){
                     setTimeout(function(){
-                        $('.skillIcon:nth-of-type('+k+') .rotateScore').css({'background':'conic-gradient(#333 '+i*5+'%, #fff0 '+i*5+'%)'});
+                        $('.skillIcon:nth-of-type('+k+') .rotateScore').css({'background':'conic-gradient(#333 '+ (n-i)*5+'%, #fff0 '+ (n-i)*5+'%)'});
                     }, i * 30);
                 };
-            },function(){
-                k === 1 ? n=17 : false ;
-                k === 2 ? n=18 : false ;
-                k === 3 ? n=16 : false ;
-                k === 4 ? n=17 : false ;
-                k === 5 ? n=12 : false ;
-                k === 6 ? n=16 : false ;
-                k === 7 ? n=17 : false ;
-                k === 8 ? n=15 : false ;
-                $('.skillIcon:nth-of-type('+k+')').css({'pointer-events':'none'});
-                setTimeout(function(){
-                    for(let i = 0; i <= n; i++){
-                        setTimeout(function(){
-                            $('.skillIcon:nth-of-type('+k+') .rotateScore').css({'background':'conic-gradient(#333 '+ (n-i)*5+'%, #fff0 '+ (n-i)*5+'%)'});
-                        }, i * 30);
-                    };
-                },2000);
-                setTimeout(function(){
-                    $('.skillIcon:nth-of-type('+k+')').css({'pointer-events':'all'});
-                },3000);
-            });
-        };
+            },2000);
+            setTimeout(function(){
+                $('.skillIcon:nth-of-type('+k+')').css({'pointer-events':'all'});
+            },3000);
+        });
     };
 
     function mouseOn() {
