@@ -14,14 +14,14 @@ body {height: unset; transition: all 0.7s 0.3s;}
 /* roundboard */
 #roundboard {width: 5948px; height: 5948px; position: fixed; top: 50%; left: 0; transform: translate(calc(-100% + 960px),-50%) rotate(0deg); z-index: 999;}
 #roundboard>div {width: 101%; height: 1500px; display: flex; align-items: center; justify-content: center; position: absolute; font-size: 50px;}
-.no_1 {left: 50%; top: 0; transform: translate(-50%, -50%);}
-.no_2 {right: 871px; top: 871px; transform: translate(50%, -50%);}
-.no_3 {left: 100%; top: 50%; transform: translate(-50%, -50%);}
-.no_4 {right: 871px; bottom: 871px; transform: translate(50%, 50%);}
-.no_5 {left: 50%; top: 100%; transform: translate(-50%, -50%);}
-.no_6 {left: 871px; bottom: 871px; transform: translate(-50%, 50%);}
-.no_7 {left: 0; top: 50%; transform: translate(-50%, -50%);}
-.no_8 {left: 871px; top: 871px; transform: translate(-50%, -50%);}
+.no_0 {left: 50%; top: 0; transform: translate(-50%, -50%);}
+.no_1 {right: 871px; top: 871px; transform: translate(50%, -50%);}
+.no_2 {left: 100%; top: 50%; transform: translate(-50%, -50%);}
+.no_3 {right: 871px; bottom: 871px; transform: translate(50%, 50%);}
+.no_4 {left: 50%; top: 100%; transform: translate(-50%, -50%);}
+.no_5 {left: 871px; bottom: 871px; transform: translate(-50%, 50%);}
+.no_6 {left: 0; top: 50%; transform: translate(-50%, -50%);}
+.no_7 {left: 871px; top: 871px; transform: translate(-50%, -50%);}
 
 nav {width: 6720px; height: 6720px; position: fixed; z-index: 1000; left: -6360px; top: 50%; transform: translatey(-50%); background-color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: flex-end; transition: left 0.8s;}
 .gnb {margin-right: 120px;}
