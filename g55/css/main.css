@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+*{outline: 1px solid #6660;}
+body::-webkit-scrollbar {width: 16px;}
+body::-webkit-scrollbar-thumb {border: 2px solid #fff; border-radius: 8px; background: #FEB203;}
+body::-webkit-scrollbar-track {width: 16px;}
+
+.displayNone {display: none;}
+.inner {width: 1440px;/* width: 100%; max-width: 1440px; */ padding: 0 60px; margin: 0 auto;}
+/* @media (max-width:1440px) {
+    .inner {padding: 0 4.166666vw;}
+} */
+
+#header {height: 70px;}
+#header .inner {display: flex; justify-content: space-between; align-items: center; height: inherit;}
+#header .gnb {display: flex; font-weight: 600;}
+#header .gnb li {height: 70px;}
+#header .gnb li a {height: 100%; display: flex; align-items: center; padding: 0 16px;}
+#header .gnb li a:hover {color: #FEB203;}
+#header .headerConvenientBtn {display: flex; gap: 11px;}
+#header .headerConvenientBtn .headerSearch {display: flex; gap: 11px;}
+#header .headerConvenientBtn .headerSearch input {width: 183px; height: 24px; line-height: 24px; font-size: 14px; padding: 0 2px; border: 0; border-bottom: 1px solid #333; font-family: 'Noto Sans KR', sans-serif; color: #333; font-weight: 400;}
+#header .headerConvenientBtn .headerSearch input::placeholder {color: #333;}
+#header .headerConvenientBtn button {display: block; border-style: unset; cursor: pointer; background-color: unset;}
+
+.mainBannerAndUserWrap {margin-top: 40px; margin-bottom: 108px; display: flex; gap: 50px;}
+.mainBanner {width: 940px; margin: 0; border-radius: 20px;}
+.mainBanner .swiper-slide {border-radius: 20px; overflow: hidden;}
+#user .member {width: 330px; height: 345px; border: 2px solid #FEB203; border-radius: 20px; padding: 48px 32px;}
+#user .member .member_profile {display: flex; align-items: center; gap: 20px;}
+#user .member .member_profile a {display: block; width: 100px; height: 100px; background-image: url(../image/profileImg.jpg); border-radius: 50%; box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);}
+#user .member .member_profile p {font-size: 18px;}
+#user .member .member_profile p span {font-weight: 600;}
+#user .member .member_status {display: flex; margin-top: 24px;}
+#user .member .member_status div {width: calc(100%/3); display: flex; flex-direction: column; align-items: center;}
+#user .member .member_status div h2 {font-size: 22px; font-weight: 600;}
+#user .member .member_status div p {font-size: 12px;}
+#user .member .member_comfortable {display: flex; justify-content: space-between; margin-top: 32px;}
+#user .member .member_comfortable a {width: 122px; height: 40px; font-size: 14px; font-weight: 500; display: flex; align-items: center; justify-content: center; border: 1px solid #ccc;}
+#user .myInterestPoint {width: 330px; height: 202px; padding: 28px; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: #feb2030d; border: 2px solid #FEB203; border-radius: 20px; margin-top: 25px;}
+#user .myInterestPoint h2 {font-size: 18px; font-weight: 500; margin-bottom: 16px;}
+#user .myInterestPoint .pointWrap {width: 100%; display: flex; justify-content: space-between;}
+#user .myInterestPoint .pointWrap>div {width: 84px; height: 104px; border: 2px solid #FEB203; border-radius: 20px; background-color: #fff; display: flex; flex-direction: column; align-items: center; padding-top: 13px;}
+#user .myInterestPoint .pointWrap>div h3 {font-size: 14px; font-weight: 500; margin-bottom: 6px;}
+#user .myInterestPoint .pointWrap>div a {width: 59px; height: 21px; font-size: 10px; display: flex; align-items: center; justify-content: center; border: 1px solid #ccc; margin-bottom: 4px;}
+#user .myInterestPoint .pointWrap>div:nth-child(2) {border: 2px solid #eee; cursor: pointer; padding-top: 20px;}
+#user .myInterestPoint .pointWrap>div:nth-child(2) p {width: 36px; height: 36px; border-radius: 50%; background-color: #eee; font-size: 30px; font-weight: 200; line-height: 30px; text-align: center; color: #fff;}
+#user .myInterestPoint .pointWrap>div:nth-child(2) h4 {font-size: 11px; margin-top: 8px;}
+#user .myInterestPoint .pointWrap>div:nth-child(3) {opacity: 0;}
+
+#cultureClub h2 {font-size: 14px; margin-bottom: 30px;}
+#cultureClub h2 span {font-family: 'KCC Ganpan'; font-size: 42px; color: #FEB203;}
+#cultureClub .clubWindow {width: 1320px; height: 798px; border: 2px solid #FEB203; border-radius: 20px; overflow: hidden; display: flex; flex-wrap: wrap; position: relative;}
+#cultureClub .clubWindow .clubAddress {width: 100%; height: 57px; display: flex; justify-content: space-between; align-items: center; font-family: 'KCC Ganpan'; border-bottom: 1px solid #FEB203;}
+#cultureClub .clubWindow .clubAddress h3 {font-size: 18px; color: #FEB203; margin-left: 32px;}
+#cultureClub .clubWindow .clubAddress h4 {width: 91px; height: 57px; background-color: #FEB203; color: #fff; font-size: 24px; line-height: 57px; text-align: center; cursor: pointer;}
+#cultureClub .clubWindow .categoryInWindow {width: 199px; height: 626px; margin-top: 57px;}
+#cultureClub .clubWindow .categoryInWindow .swiper-slide {width: 98px; height: 98px; border-radius: 50%; overflow: hidden; font-weight: 700; color: #fff; text-align: center; display: flex; justify-content: center; align-items: center; background-repeat: no-repeat; background-size: contain; margin-left: 37px;}
+.swiper-button-next:after, .swiper-button-prev:after {display: none;}
+.swiper-button-next, .swiper-button-prev {color: #333; font-family: 'KCC Ganpan'; font-size: 24px; transform: rotate(270deg); -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none;}
+.swiper-button-prev {top: 86px; left: 63px;}
+.swiper-button-next {top: 766px; left: 63px;}
+#cultureClub .clubWindow .categoryInWindow .All {background-image: url(../image/clubList/All.jpg);}
+#cultureClub .clubWindow .categoryInWindow .ClubOriginals {background-image: url(../image/clubList/clubOriginals.jpg);}
+#cultureClub .clubWindow .categoryInWindow .Art {background-image: url(../image/clubList/Arts.jpg);}
+#cultureClub .clubWindow .categoryInWindow .Economy {background-image: url(../image/clubList/Economy.jpg);}
+#cultureClub .clubWindow .categoryInWindow .DanceExercise {background-image: url(../image/clubList/DanseExercise.jpg);}
+#cultureClub .clubWindow .categoryInWindow .MusicPlay {background-image: url(../image/clubList/MusicAndPlay.jpg);}
+#cultureClub .clubWindow .categoryInWindow .Drawing {background-image: url(../image/clubList/Drawing.jpg);}
+#cultureClub .clubWindow .categoryInWindow .Parentseducation {background-image: url(../image/clubList/ParentsEducation.jpg);}
+#cultureClub .clubWindow .categoryInWindow .WithMom {background-image: url(../image/clubList/WithMom.jpg);}
+#cultureClub .clubWindow .categoryInWindow .KidsChildren {background-image: url(../image/clubList/KidsAndChildren.jpg);}
+#cultureClub .clubWindow .categoryInWindow .HomeCook {background-image: url(../image/clubList/HomeCook.jpg);}
+#cultureClub .clubWindow .classWindow {width: 1117px; height: 742px; overflow-y: scroll; padding: 45px 41px 0 65px; display: flex; flex-wrap: wrap; justify-content: space-between; border-left: 1px solid #FEB203; scroll-behavior: smooth;}
+#cultureClub .clubWindow .classWindow::-webkit-scrollbar {width: 24px;}
+#cultureClub .clubWindow .classWindow::-webkit-scrollbar-thumb {height: 48px; border: 8px solid #fff; border-radius: 12px; background: #FEB203;}
+#cultureClub .clubWindow .classWindow::-webkit-scrollbar-track {width: 24px;}
+#cultureClub .clubWindow .classWindow a {width: 310px; height: 299px; margin-bottom: 50px; transition: all 0.2s;}
+#cultureClub .clubWindow .classWindow a:hover {background-color: #FEB20380; box-shadow: 0 0 0 10px #FEB20380; border-radius: 20px;}
+#cultureClub .clubWindow .classWindow a figure {width: 310px; height: 192px; border-radius: 20px; overflow: hidden;}
+#cultureClub .clubWindow .classWindow a figure img {width: 100%;}
+#cultureClub .clubWindow .classWindow a h3 {font-weight: 500; margin-top: 21px; padding: 0 20px; text-overflow: ellipsis; overflow: hidden; word-break: break-word; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;}
+#cultureClub .clubWindow .classWindow a h4 {font-size: 12px; font-weight: 300; margin: 11px 0 14px; padding: 0 20px;}
+#cultureClub .clubWindow .classWindow a h5 {font-size: 14px; font-weight: 500; text-align: end; padding: 0 20px;}
+
+#popularClass {min-width: 1440px; height: 746px; background-color: #FEB203; margin-top: 80px; padding-top: 60px; overflow: hidden;}
+#popularClass h2 {font-size: 14px; margin-bottom: 30px; color: #fff; margin-bottom: 48px;}
+#popularClass h2 span {font-family: 'KCC Ganpan'; font-size: 42px;}
+#popularClass .popularClass {overflow: unset;}
+#popularClass .popularClass .swiper-wrapper {transition-timing-function: linear;}
+#popularClass .popularClass .swiper-slide {width: 310px; height: 480px; background-color: #fff; border-radius: 20px; display: flex; flex-direction: column; align-items: center; overflow: hidden; position: relative; color: #000; transition: transform 0.5s;}
+#popularClass .popularClass .swiper-slide:hover {transform: translateY(-20px); box-shadow: 0 10px 20px 0 #fff9;}
+#popularClass .popularClass .swiper-slide img {height: 256px;}
+#popularClass .popularClass .swiper-slide .gradienter {width: 100%; height: 100px; position: absolute; top: 156px; background: linear-gradient(#fff0, #fff);}
+#popularClass .popularClass .swiper-slide h3 {font-size: 13px; margin-top: 15px;}
+#popularClass .popularClass .swiper-slide h4 {height: 52px; font-size: 18px; font-weight: 500; margin-top: 25px; padding: 0 25px; text-align: center; text-overflow: ellipsis; overflow: hidden; word-break: break-word; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;}
+#popularClass .popularClass .swiper-slide h5 {font-size: 13px; font-weight: 300; margin-top: 10px;}
+#popularClass .popularClass .swiper-slide h6 {font-weight: 500; margin-top: 25px;}
+
+#EVENT {margin-top: 130px;}
+#EVENT h2 {font-family: 'KCC Ganpan'; font-size: 42px; color: #FEB203; margin-bottom: 40px;}
+#EVENT ul {display: flex; justify-content: space-between;}
+#EVENT ul li {border-radius: 20px; overflow: hidden;}
+#EVENT ul li a {width: 310px; display: block; position: relative;}
+#EVENT ul li a .evtxt {position: absolute; bottom: 0; display: flex; flex-direction: column; justify-content: flex-end; width: 100%; height: 180px; background: linear-gradient(#3330, #333); padding: 30px; color: #fff; line-height: 1.35; transform: translateY(100%); transition: all 0.3s;}
+#EVENT ul li a:hover .evtxt {transform: translateY(0);}
+#EVENT ul li a .evtxt h4 {font-size: 14px; margin-top: 10px;}
+
+#ETC {margin-top: 90px;}
+#ETC .inner {display: flex; justify-content: space-between;}
+#ETC section {width: 420px;}
+#ETC section h2 {font-family: 'KCC Ganpan'; font-size: 30px; color: #FEB203; margin-bottom: 20px;}
+#ETC section a {display: block; border-radius: 20px; overflow: hidden;}
+
+#footer {margin-top: 120px;}
+#footer .footTop {border-top: 1px solid #ccc; color: #777; font-size: 14px;}
+#footer .footTop .inner {display: flex; justify-content: space-between; align-items: center; box-shadow: 0 -1px #ccc;}
+#footer .footTop nav ul {height: 60px; display: flex; gap: 24px; align-items: center;}
+#footer .footTop nav ul li .Emphasis {font-weight: 500; color: #FEB203;}
+#footer .footTop select {padding: 0 23px 0 5px; border: 1px solid #ccc; font-family: 'Noto Sans KR', sans-serif; position: relative;
+    -webkit-appearance:none; /* for chrome */
+    -moz-appearance:none; /*for firefox*/
+    appearance:none;
+    background:transparent;}
+#footer .footTop select::-ms-expand{display:none;/*for IE10,11*/}
+#footer .footTop .selectWrap {position: relative;}
+#footer .footTop .selectWrap .selArrow {width: 6px; height: 6px; border-right: 1px solid #777; border-bottom: 1px solid #777; position: absolute; top: 8px; right: 8px; transform: rotate(405deg); transition: all 0.5s;}
+
+#footer .footBott {background-color: #FEB203; color: #fff;}
+#footer .footBott .inner {background-color: #FEB203; height: 90px; display: flex; justify-content: space-between; align-items: center;}
+#footer .footBott .txt {display: flex; flex-wrap: wrap; align-items: center; width: 750px; gap: 5px; font-size: 12px; font-weight: 300;}
+#footer .footBott .txt li {margin-right: 13px;}
+
+#footer .footBott .familySite {width: 124px; border-bottom: 1px solid #fff; display: flex; align-items: center; justify-content: space-between;}
+#footer .footBott .familySite h5 {font-size: 18px; }
+#footer .footBott .familySite .familyArrow {content: ""; display: block; width: 8px; height: 8px; border-bottom: 1px solid #fff; border-right: 1px solid #fff; margin-right: 6px; transform: rotate(405deg); transition: all 0.5s;}
+
+/* ------------------ branchGuide -------------------- */
+#branchGuide {margin-top: 80px;}
+#branchGuide .inner {display: flex; gap: 40px;}
+#branchGuide .mapController {width: 240px;}
+#branchGuide .mapController .toggleSwitch { height: 80px; display: flex; align-items: end;}
+#branchGuide .mapController .toggleSwitch div {width: 50%; height: 80px; border-radius: 20px 20px 0 0; display: flex; justify-content: center; align-items: center; transition: height 0.1s linear;}
+#branchGuide .mapController .toggleSwitch .switch1 {border: 1px solid #333; border-bottom: none;}
+#branchGuide .mapController .toggleSwitch .switch2 {background-color: #FEB203; color: #fff; height: 60px; border-bottom: 1px solid #333;}
+
+#branchGuide .mapController .choiceWrap {height: 136px; display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 30px 0;}
+#branchGuide .mapController figure {width: 200px; display: flex; align-items: center; padding-bottom: 6px; border-bottom: 1px solid #333;}
+#branchGuide .mapController .mapSearch input {width: 160px; height: 20px; font-size: 14px; padding: 0 4px; border: 0; border-right: 1px solid #333; font-family: 'Noto Sans KR', sans-serif; color: #333;}
+#branchGuide .mapController .mapSearch input::placeholder {color: #333;}
+#branchGuide .mapController .mapSearch button {display: block; border-style: unset; cursor: pointer; background-color: unset; margin: 0 auto;}
+#branchGuide .mapController .mapSelecter {cursor: pointer;}
+#branchGuide .mapController .mapSelecter p {width: 160px; height: 20px; font-size: 14px; padding: 0 4px; border: 0; color: #333;}
+#branchGuide .mapController .mapSelecter .mapSelecterArrow {width: 23px; height: 14px; background: url(../image/mapSelArrow.png) no-repeat; margin: 0 auto; transition: all 0.5s;}
+#branchGuide .mapController .branchList {height: 518px; overflow-y: scroll; -ms-overflow-style: none; border-bottom: 1px solid #333;}
+#branchGuide .mapController .branchList::-webkit-scrollbar {display: none;}
+#branchGuide .mapController .branchList>article {width: 240px; padding: 30px; font-size: 12px; box-shadow: 0 1px #ccc;}
+#branchGuide .mapController .branchList .focusOn {border-radius: 20px; border: 5px solid #FEB203; padding: 25px; box-shadow: 0 0 #ccc;}/* 테두리변화 */
+#branchGuide .mapController .branchList .focusOnPrev {box-shadow: 0 0 #ccc;}
+#branchGuide .mapController .branchList .focusOff:hover h3 span {box-shadow: 0 1px 0 #333;}
+#branchGuide .mapController .branchList>article h3 {font-size: 16px; font-weight: 500; margin-bottom: 7px;}
+#branchGuide .mapController .branchList>article h4 {margin-bottom: 7px;}
+#branchGuide .mapController .branchList>article h5 {margin-bottom: 12px;}
+#branchGuide .mapController .branchList>article .listBtnWrap {display: flex; justify-content: space-between;}
+#branchGuide .mapController .branchList>article a {display: flex; justify-content: center; width: 87px; height: 20px; border: 1px solid #ccc;}
+
+
+
+#map {border-radius: 20px;}

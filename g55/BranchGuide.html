@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culture Club</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=z3b4qdxk2c"></script>
+    <script src="js/mainswiper.js" defer></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="inner">
+                <h1><a href="index.html"><img src="image/logo.png" alt="컬처클럽 로고"></a></h1>
+                <nav>
+                    <ul class="gnb">
+                        <li><a href="#!">카테고리</a></li>
+                        <li><a href="#!">지점안내</a></li>
+                        <li><a href="#!">수강신청</a></li>
+                        <li><a href="#!">카탈로그</a></li>
+                        <li><a href="notice.html">공지사항&#47;이벤트</a></li>
+                    </ul>
+                </nav>
+                <div class="headerConvenientBtn">
+                    <section class="headerSearch">
+                        <input type="text" placeholder="원하시는 클래스를 찾아보세요&#33;">
+                        <button class="headerSearchBtn"><img src="image/search_hd.png" alt="검색"></button>
+                    </section>
+                    <button class="siteMap"><img src="image/member.png" alt="멤버"></button>
+                </div>
+            </div>
+        </header>
+        <main id="main">
+            <section id="branchGuide">
+                <div class="inner">
+                    <section class="mapController">
+                        <div class="toggleSwitch">
+                            <div class="switch1">지점찾기</div>
+                            <div class="switch2">관심지점</div>
+                        </div>
+                        <section class="choiceWrap">
+                            <figure class="mapSearch">
+                                <input type="text" placeholder="주소를 입력하세요.">
+                                <button class="headerSearchBtn"><img src="image/search_map.png" alt="검색"></button>
+                            </figure>
+                            <figure class="mapSelecter">
+                                <p>지역선택</p>
+                                <div class="mapSelecterArrow"></div>
+                            </figure>
+                        </section>
+                        <section class="branchList">
+                            <article class="branch1 focusOn">
+                                <h3><span>가든5점</span></h3>
+                                <h4>서울 송파구 충민로 10 (문정동) 이마트 가든5점 지하 1층 컬처클럽</h4>
+                                <h5>전화&nbsp;&nbsp;02-411-1250</h5>
+                                <div class="listBtnWrap ">
+                                    <a href="#!" class="classListBtn">클래스목록</a>
+                                    <a href="#!" class="E-CatalogBtn">E-카탈로그</a>
+                                </div>
+                            </article>
+                            <article class="branch2 focusOff">
+                                <h3><span>강릉점</span></h3>
+                                <h4>강원 강릉시 경강로 2398-10 (송정동) 이마트 강릉점 3층 컬처클럽</h4>
+                                <h5>전화  033-649-1250</h5>
+                                <div class="listBtnWrap">
+                                    <a href="#!" class="classListBtn">클래스목록</a>
+                                    <a href="#!" class="E-CatalogBtn">E-카탈로그</a>
+                                </div>
+                            </article>
+                            <article class="branch3 focusOff">
+                                <h3><span>검단점</span></h3>
+                                <h4>인천 서구 서곶로 754 (당하동) 이마트 검단점 3층 테넌트 컬처클럽</h4>
+                                <h5>전화 032-440-1250</h5>
+                                <div class="listBtnWrap">
+                                    <a href="#!" class="classListBtn">클래스목록</a>
+                                    <a href="#!" class="E-CatalogBtn">E-카탈로그</a>
+                                </div>
+                            </article>
+                            <article class="branch4 focusOff">
+                                <h3><span>양산점</span></h3>
+                                <h4>경남 양산시 양산역6길 12 (중부동) 이마트 양산점 2층 컬처클럽</h4>
+                                <h5>전화 055-371-8170</h5>
+                                <div class="listBtnWrap">
+                                    <a href="#!" class="classListBtn">클래스목록</a>
+                                    <a href="#!" class="E-CatalogBtn">E-카탈로그</a>
+                                </div>
+                            </article>
+                        </section>
+                    </section>
+                    
+                    <div id="map" style="width:1040px; height:734px;"></div>
+                </div>
+            </section>
+        </main>
+        <footer id="footer">
+            <section class="footTop">
+                <div class="inner">
+                    <nav>
+                        <ul>
+                            <li><a href="#!">회사소개</a></li>
+                            <li><a href="#!">강사관리</a></li>
+                            <li><a href="#!">강사지원</a></li>
+                            <li><a href="#!">문화센터 연혁</a></li>
+                            <li><a href="#!">협력사제휴</a></li>
+                            <li><a href="#!">이용약관</a></li>
+                            <li><a href="#!" class="Emphasis">개인정보처리방침</a></li>
+                            <li><a href="#!" class="Emphasis">영상정보처리기기운영, 관리 방침</a></li>
+                            <li><a href="#!">투자정보&#40;IR&#41;</a></li>
+                            <li><a href="#!">채용정보</a></li>
+                        </ul>
+                    </nav>
+                    <div class="selectWrap">
+                        <select name="authorization">
+                            <option value="">평생교육시설 인허가 다운로드</option>
+                            <option value="제주_평생교육시설 신고증">제주점</option>
+                            <option value="서수원_평생교육시설 신고증">서수원점</option>
+                            <option value="월계_평생교육시설 신고증">월계점</option>
+                            <option value="통영_평생교육시설 신고증">통영점</option>
+                            <option value="문현_평생교육시설 신고증">문현점</option>
+                            <option value="금정_평생교육시설 신고증">금정점</option>
+                            <option value="울산_평생교육시설 신고증">울산점</option>
+                            <option value="남양주_평생교육시설 신고증">남양주점</option>
+                            <option value="고잔_평생교육시설 신고증">고잔점</option>
+                            <option value="군산_평생교육시설 신고증">군산점</option>
+                            <option value="경산_평생교육시설 신고증">경산점</option>
+                            <option value="검단_평생교육시설 신고증">검단점</option>
+                            <option value="아산_평생교육시설 신고증">아산점</option>
+                            <option value="포항이동_평생교육시설 신고증">포항이동점</option>
+                            <option value="부천_평생교육시설신고증">부천점</option>
+                            <option value="동탄_평생교육시설신고증">동탄점</option>
+                            <option value="다산_평생교육시설 신고증">다산점</option>
+                            <option value="하남_평생교육시설 신고증">하남점</option>
+                            <option value="청계천_평생교육시설 신고증">청계천점</option>
+                            <option value="천안_평생교육시설 신고증">천안점</option>
+                            <option value="양산_평생교육시설 신고증">양산점</option>
+                            <option value="안성_평생교육시설 신고증">안성점</option>
+                            <option value="월배_평생교육시설 신고증">월배점</option>
+                            <option value="목동(양천)_평생교육시설 신고증">목동(양천)점</option>
+                            <option value="충주_평생교육시설 신고증">충주점</option>
+                            <option value="명일_평생교육시설 신고증">명일점</option>
+                            <option value="흥덕_평생교육시설 신고증">흥덕점</option>
+                            <option value="은평_평생교육시설 신고증">은평점</option>
+                            <option value="제천_평생교육시설 신고증">제천점</option>
+                            <option value="포항_평생교육시설 신고증">포항점</option>
+                            <option value="양주_평생교육시설 신고증">양주점</option>
+                            <option value="포천_평생교육시설신고증">포천점</option>
+                            <option value="성남_평생교육시설 신고증">성남점</option>
+                            <option value="수지_평생교육시설 신고증">수지점</option>
+                            <option value="광명소하_평생교육시설 신고증">광명소하점</option>
+                            <option value="진접_평생교육시설 신고증">진접점</option>
+                            <option value="묵동(중랑)_평생교육시설 신고증">묵동(중랑)점</option>
+                            <option value="오산_평생교육시설 신고증">오산점</option>
+                            <option value="반야월_평생교육시설 신고증">반야월점</option>
+                            <option value="분당_평생교육시설 신고증">분당점</option>
+                            <option value="동인천_평생교육시설 신고증">동인천점</option>
+                            <option value="광산_평생교육시설 신고증">광산점</option>
+                            <option value="둔산_평생교육시설신고증">둔산점</option>
+                            <option value="가든파이브_평생교육시설 신고증">가든파이브점</option>
+                            <option value="파주운정_평생교육시설 신고증">파주운정점</option>
+                            <option value="순천_평생교육시설 신고증">순천점</option>
+                            <option value="동구미_평생교육시설 신고증">동구미점</option>
+                            <option value="대전터미널_평생교육시설 신고증">대전터미널점</option>
+                            <option value="서산_평생교육시설신고증">서산점</option>
+                            <option value="연제_평생교육시설 신고증">연제점</option>
+                            <option value="하월곡_평생교육시설 신고증">하월곡점</option>
+                            <option value="화성봉담_평생교육시설 신고증">화성봉담점</option>
+                            <option value="여수_평생교육시설 신고증">여수점</option>
+                            <option value="천안서북_평생교육시설 신고증">천안서북점</option>
+                            <option value="의정부_평생교육시설 신고증">의정부점</option>
+                            <option value="별내_평생교육시설 신고증">별내점</option>
+                            <option value="강릉_평생교육시설 신고증">강릉점</option>
+                            <option value="서귀포_평생교육시설 신고증">서귀포점</option>
+                            <option value="신도림_평생교육시설신고증">신도림점</option>
+                            <option value="풍산_평생교육시설 신고증">풍산점</option>
+                            <option value="이천_평생교육시설 신고증">이천점</option>
+                            <option value="김포한강_평생교육시설 신고증">김포한강점</option>
+                            <option value="세종_평생교육시설 신고증">세종점</option>
+                            <option value="안동_평생교육시설 신고증">안동점</option>
+                            <option value="광교_평생교육시설 신고증">광교점</option>
+                            <option value="과천_평생교육시설 신고증">과천점</option>
+                            <option value="중동_평생교육시설 신고증">중동점</option>
+                            <option value="구로_평생교육시설 신고증">구로점</option>
+                            <option value="상주_평생교육시설 신고증">상주점</option>
+                            <option value="스타필드위례_평생교육시설 신고증">스타필드위례점</option>
+                            <option value="스타필드부천_평생교육시설 신고증">스타필드부천점</option>
+                            <option value="스타필드명지_평생교육시설 신고증">스타필드명지점</option>
+                            <option value="스타필드안성_평생교육시설 신고증">스타필드안성점</option>
+                            <option value="트레이더스연산_평생교육시설 신고증">트레이더스연산점</option>
+                            <option value="트레이더스수원_평생교육시설 신고증">트레이더스수원점</option>
+                            <option value="트레이더스구성_평생교육시설 신고증">트레이더스구성점</option>
+                            <option value="트레이더스동탄_평생교육시설 신고증">트레이더스동탄점</option>
+                            <option value="트레이더스김포_평생교육시설 신고증">트레이더스김포점</option>
+                            <option value="춘천_평생교육시설 신고증">춘천점</option>
+                            <option value="트레이더스킨텍스_평생교육시설 신고증">트레이더스킨텍스점</option>
+                        </select>
+                        <div class="selArrow"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="footBott">
+                <div class="inner">
+                    <ul class="txt">
+                        <li>서울특별시 중구 세종대로 7길 37 &#40;순화동 53&#41;</li>
+                        <li>대표자&#58; 한채양</li>
+                        <li>사업자등록번호&#58; 206-86-50913</li>
+                        <li>통신판매업 신고번호&#58; 2023-서울중구-0921호</li>
+                        <li>이마트대표전화&#58; 02-380-5678</li>
+                        <li>이마트몰&#58; 1588-4349</li>
+                        <li>신세계 백화점&#58; 1588-1234</li>
+                        <li>신세계몰&#58; 1588-4249</li>
+                        <li>신세계포인트&#58; 1899-4349</li>
+                    </ul>
+                    <figure class="familySite">
+                        <h5>FAMILY SITE</h5>
+                        <div class="familyArrow"></div>
+                    </figure>
+                </div>
+            </section>
+        </footer>
+    </div>
+</body>
+</html>

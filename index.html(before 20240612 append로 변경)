@@ -1,0 +1,3310 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUHO's portfolio</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/index.js"></script>
+    <script type="module" src="js/three.js" defer></script>
+</head>
+<body>
+    <nav>
+        <ul class="gnb">
+            <li><a href="#!" class="navbtn_int">INTRO</a></li>
+            <li><a href="#!" class="navbtn_pub">PUBLISHING</a>
+                <ul class="depth2">
+                    <li><a href="#!" class="navbtn_gnuboard">컬처클럽</a></li>
+                    <li><a href="#!" class="navbtn_univ">호서대학교</a></li>
+                    <li><a href="#!" class="navbtn_livart">리바트</a></li>
+                    <li><a href="#!" class="navbtn_downy">다우니</a></li>
+                    <li><a href="#!" class="navbtn_touslesjours">뚜레쥬르</a></li>
+                </ul>
+            </li>
+            <li><a href="#!" class="navbtn_dsi">DESIGN</a></li>
+            <li><a href="#!" class="navbtn_prf">PROFILE</a></li>
+        </ul>
+    </nav>
+    <div id="roundboard">
+        <div class="no_1">
+            <section id="intro1" class="intro page1">
+                <div class="txtwrap">
+                    <h1>빙글빙글<i> </i><span>도는 포트폴리오 입니다.</span></h1>
+                    <h2>웹 디자인 &amp; 퍼블리셔 신입 이주호의</h2>
+                    <h3>방문자님의 일상도 원만하게 돌아갔으면 좋겠어요<i> </i><img src="images/smile.png" alt=""></h3>
+                </div>
+            </section>
+            <section class="publishing gnuboard page2">
+                <div class="txtwrap">
+                    <p>그누보드 메인 및 서브페이지<span> &#40;지점안내, 게시판&#41;</span></p>
+                    <h2>컬처클럽</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.04.24&nbsp;&nbsp;~&nbsp;&nbsp;2024.05.01
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>컬처클럽이 사람과 사람, 가족과 함께하는<br>
+                            문화교류의 장이라는 점에 착안하여<br>
+                            보는 사람이 안정된 느낌을 받도록 하였고,<br>
+                            이마트에서 운영하는 장소이므로 이마트가<br>
+                            연상되는 이마트 로고의 색을 주색으로 사용하여<br>
+                            홈페이지를 제작하였습니다.
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop<br>
+                            HTML5, CSS3, Javascript, Jquery, Gnuboard5</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="../g5" target="_blank" class="circleImage PUBImage">
+                        <img src="images/gnubo.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing univ page3">
+                <div class="txtwrap">
+                    <p>메인 리디자인</p>
+                    <h2>호서대학교</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.04.12&nbsp;&nbsp;~&nbsp;&nbsp;2024.04.21
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>호서대학교의 메인컬러 두가지를 활용하여<br>
+                            시각적인 재미를 유도하였으며,<br>
+                            자유분방한 듯 하면서 정돈된 UI를 통해<br>
+                            젊은 활기와 믿음직스러운 느낌을<br>
+                            동시에 받도록 하였습니다.<br>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="univ/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/univ.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing livart page4">
+                <div class="txtwrap">
+                    <p>풀페이지 메인 리디자인</p>
+                    <h2>리바트</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.03.13 ~ 2024.03.18</dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>리바트의 고급스러움과<br>
+                            예술적인 아름다움을 살리기 위해<br>
+                            간결하면서 공간감을 느낄 수 있도록<br>
+                            만드는 것에 중점을 두었습니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop,<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="livart/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/livart.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing downy page5">
+                <div class="txtwrap">
+                    <p>메인 리디자인</p>
+                    <h2>다우니</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.03.05 ~ 2024.03.11</dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>다우니의 청결한 느낌과 신뢰감,<br>
+                            섬유유연제의 부드럽고 매끄러운<br>
+                            감각을 구현하는 것에 중점을 두어<br>
+                            제작 및 리디자인 하였습니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="downy/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/downy.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing touslesjours page6">
+                <div class="txtwrap">
+                    <p>메인 반응형 리디자인</p>
+                    <h2>뚜레쥬르</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.01.10&nbsp;&nbsp;~&nbsp;&nbsp;2024.01.15, <br>
+                            2024.02.26 ~ 2024.02.29,<br>
+                            2024.04.02 ~ 2024.04.11<span> &#40;반응형&#41;</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>요소를 큼지막하고 선명하게 배치하여<br>
+                            방문자들이 먹음직스러운 제품에 흥미가 생겨<br>
+                            매장을 방문하도록 유도하고,<br>
+                            다양한 이벤트 정보를 한눈에 보이도록 배치하여<br>
+                            방문자의 지갑을 자극하도록 구성하였습니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="touslesjours/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/touslesjours.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing designWorks page7">
+                <div class="txtwrap">
+                    <h2>DESIGN<br><span>WORKS</span></h2>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <div class="circleImage DESIGNImage">
+                        <div class="swiper workswiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <a href="images/leaflet_page01.jpg" data-fancybox="gallery" class="swiper-slide turnImg"><img src="images/leaflet_page01.jpg" class="no1img"></a>
+                                <a data-fancybox href="images/cardnews.png" class="swiper-slide"><img src="images/cardnews/cardnewspreview.png" alt="" class="noneshadow no2img"></a>
+                                <a data-fancybox href="images/brading.png" class="swiper-slide"><img src="images/brading.png" alt="" class="no3img"></a>
+                                <a data-fancybox data-type="iframe" data-src="infographic/index.html" class="swiper-slide"><img src="images/infographics.png" alt="" class="no4img"></a>
+                            </div>
+                            <div class="swiper-button-prev"><img src="images/swiper_view.png" alt=""  class="buttonLike"></div>
+                            <div class="swiper-button-next"><img src="images/swiper_view.png" alt=""  class="buttonLike"></div>
+                        </div>
+                        <div class="circleImageBorderGradient"></div>
+                        <a href="images/leaflet_page02.jpg" data-fancybox="gallery" class="swiper-slide turnImg" style="display: none;"></a>
+                    </div>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <a href="#!" class="circle5"></a>
+                    </div>
+                </div>
+            </section>
+            <section class="profile page8">
+                <div class="border botborder"></div>
+                <div class="border topborder"></div>
+                <section class="inner">
+                    <section class="proLWrap">
+                        <figure>
+                            <div class="leaf"></div>
+                            <div class="proimage"></div>
+                            <div class="circlegroup">
+                                <div class="circlebox1">
+                                    <div class="circle1"></div>
+                                </div>
+                                <div class="circlebox2">
+                                    <div class="circle2"></div>
+                                </div>
+                                <div class="circlebox3">
+                                    <div class="circle3"></div>
+                                </div>
+                                <div class="circlebox4">
+                                    <div class="circle4"></div>
+                                </div>
+                                <div class="circlebox5">
+                                    <div class="circle5"></div>
+                                </div>
+                            </div>
+                        </figure>
+                        <p>Name : Lee Ju Ho<br>
+                            Phone : 010 - 5597 -3447<br>
+                            E-mail : pikswn@naver.com</p>
+                    </section>
+                    <section class="proRWrap">
+                        <dl>
+                            <dt>EDUCATION</dt>
+                            <dd><span class="font24px">양산직업학교</span><span class="txtRt">2023.12 ~ 2024.05</span></dd>
+                            <dd>ICT융합솔루션 개발 UI/UX 디자이너 양성과정 수료</dd>
+                            <dd><span class="font24px">경상국립대학교</span><span class="txtRt">2011.03 ~ 2020.02</span></dd>
+                            <dd>생화학과 졸업</dd>
+                        </dl>
+                        <dl>
+                            <dt>LICENSE</dt>
+                            <dd><span class="font24px">컴퓨터활용능력 2급</span><span class="txtRt">2023.01</span></dd>
+                        </dl>
+                        <dl>
+                            <dt>SKILLS</dt>
+                            <dd>
+                                <article class="skillIcons">
+                                    <div class="skillIcon">
+                                        <img src="images/skills/HTML.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>HTML</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/CSS.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>CSS</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/js.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>JavaScript</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/jQuery.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>jQuery</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Excel.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>Excel</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Figma.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>Figma</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Ai.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>Illustrator</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Ps.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>PhotoShop</p>
+                                    </div>
+                                </article>
+                            </dd>
+                        </dl>
+                    </section>
+                </section>
+            </section>
+        </div><!-- no_1 -->
+        <div class="no_2">
+            <section id="intro2" class="intro page1">
+                <div class="txtwrap">
+                    <h1>빙글빙글<i> </i><span>도는 포트폴리오 입니다.</span></h1>
+                    <h2>웹 디자인 &amp; 퍼블리셔 신입 이주호의</h2>
+                    <h3>방문자님의 일상도 원만하게 돌아갔으면 좋겠어요<i> </i><img src="images/smile.png" alt=""></h3>
+                </div>
+            </section>
+            <section class="publishing gnuboard page2">
+                <div class="txtwrap">
+                    <p>그누보드 메인 및 서브페이지<span> &#40;지점안내, 게시판&#41;</span></p>
+                    <h2>컬처클럽</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.04.24&nbsp;&nbsp;~&nbsp;&nbsp;2024.05.01
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>컬처클럽이 사람과 사람, 가족과 함께하는<br>
+                            문화교류의 장이라는 점에 착안하여<br>
+                            보는 사람이 안정된 느낌을 받도록 하였고,<br>
+                            이마트에서 운영하는 장소이므로 이마트가<br>
+                            연상되는 이마트 로고의 색을 주색으로 사용하여<br>
+                            홈페이지를 제작하였습니다.
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop<br>
+                            HTML5, CSS3, Javascript, Jquery, Gnuboard5</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="../g5" target="_blank" class="circleImage PUBImage">
+                        <img src="images/gnubo.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing univ page3">
+                <div class="txtwrap">
+                    <p>메인 리디자인</p>
+                    <h2>호서대학교</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.04.12&nbsp;&nbsp;~&nbsp;&nbsp;2024.04.21
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>호서대학교의 메인컬러 두가지를 활용하여<br>
+                            시각적인 재미를 유도하였으며,<br>
+                            자유분방한 듯 하면서 정돈된 UI를 통해<br>
+                            젊은 활기와 믿음직스러운 느낌을<br>
+                            동시에 받도록 하였습니다.<br>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="univ/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/univ.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing livart page4">
+                <div class="txtwrap">
+                    <p>풀페이지 메인 리디자인</p>
+                    <h2>리바트</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.03.13 ~ 2024.03.18</dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>리바트의 고급스러움과<br>
+                            예술적인 아름다움을 살리기 위해<br>
+                            간결하면서 공간감을 느낄 수 있도록<br>
+                            만드는 것에 중점을 두었습니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop,<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="livart/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/livart.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing downy page5">
+                <div class="txtwrap">
+                    <p>메인 리디자인</p>
+                    <h2>다우니</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.03.05 ~ 2024.03.11</dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>다우니의 청결한 느낌과 신뢰감,<br>
+                            섬유유연제의 부드럽고 매끄러운<br>
+                            감각을 구현하는 것에 중점을 두어<br>
+                            제작 및 리디자인 하였습니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="downy/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/downy.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing touslesjours page6">
+                <div class="txtwrap">
+                    <p>메인 반응형 리디자인</p>
+                    <h2>뚜레쥬르</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.01.10&nbsp;&nbsp;~&nbsp;&nbsp;2024.01.15, <br>
+                            2024.02.26 ~ 2024.02.29,<br>
+                            2024.04.02 ~ 2024.04.11<span> &#40;반응형&#41;</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>요소를 큼지막하고 선명하게 배치하여<br>
+                            방문자들이 먹음직스러운 제품에 흥미가 생겨<br>
+                            매장을 방문하도록 유도하고,<br>
+                            다양한 이벤트 정보를 한눈에 보이도록 배치하여<br>
+                            방문자의 지갑을 자극하도록 구성하였습니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="touslesjours/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/touslesjours.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing designWorks page7">
+                <div class="txtwrap">
+                    <h2>DESIGN<br><span>WORKS</span></h2>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <div class="circleImage DESIGNImage">
+                        <div class="swiper workswiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <a href="images/leaflet_page01.jpg" data-fancybox="gallery" class="swiper-slide turnImg"><img src="images/leaflet_page01.jpg" class="no1img"></a>
+                                <a data-fancybox href="images/cardnews.png" class="swiper-slide"><img src="images/cardnews/cardnewspreview.png" alt="" class="noneshadow no2img"></a>
+                                <a data-fancybox href="images/brading.png" class="swiper-slide"><img src="images/brading.png" alt="" class="no3img"></a>
+                                <a data-fancybox data-type="iframe" data-src="infographic/index.html" class="swiper-slide"><img src="images/infographics.png" alt="" class="no4img"></a>
+                            </div>
+                            <div class="swiper-button-prev"><img src="images/swiper_view.png" alt=""  class="buttonLike"></div>
+                            <div class="swiper-button-next"><img src="images/swiper_view.png" alt=""  class="buttonLike"></div>
+                        </div>
+                        <div class="circleImageBorderGradient"></div>
+                        <a href="images/leaflet_page02.jpg" data-fancybox="gallery" class="swiper-slide turnImg" style="display: none;"></a>
+                    </div>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <a href="#!" class="circle5"></a>
+                    </div>
+                </div>
+            </section>
+            <section class="profile page8">
+                <div class="border botborder"></div>
+                <div class="border topborder"></div>
+                <section class="inner">
+                    <section class="proLWrap">
+                        <figure>
+                            <div class="leaf"></div>
+                            <div class="proimage"></div>
+                            <div class="circlegroup">
+                                <div class="circlebox1">
+                                    <div class="circle1"></div>
+                                </div>
+                                <div class="circlebox2">
+                                    <div class="circle2"></div>
+                                </div>
+                                <div class="circlebox3">
+                                    <div class="circle3"></div>
+                                </div>
+                                <div class="circlebox4">
+                                    <div class="circle4"></div>
+                                </div>
+                                <div class="circlebox5">
+                                    <div class="circle5"></div>
+                                </div>
+                            </div>
+                        </figure>
+                        <p>Name : Lee Ju Ho<br>
+                            Phone : 010 - 5597 -3447<br>
+                            E-mail : pikswn@naver.com</p>
+                    </section>
+                    <section class="proRWrap">
+                        <dl>
+                            <dt>EDUCATION</dt>
+                            <dd><span class="font24px">양산직업학교</span><span class="txtRt">2023.12 ~ 2024.05</span></dd>
+                            <dd>ICT융합솔루션 개발 UI/UX 디자이너 양성과정 수료</dd>
+                            <dd><span class="font24px">경상국립대학교</span><span class="txtRt">2011.03 ~ 2020.02</span></dd>
+                            <dd>생화학과 졸업</dd>
+                        </dl>
+                        <dl>
+                            <dt>LICENSE</dt>
+                            <dd><span class="font24px">컴퓨터활용능력 2급</span><span class="txtRt">2023.01</span></dd>
+                        </dl>
+                        <dl>
+                            <dt>SKILLS</dt>
+                            <dd>
+                                <article class="skillIcons">
+                                    <div class="skillIcon">
+                                        <img src="images/skills/HTML.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>HTML</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/CSS.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>CSS</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/js.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>JavaScript</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/jQuery.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>jQuery</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Excel.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>Excel</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Figma.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>Figma</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Ai.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>Illustrator</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Ps.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>PhotoShop</p>
+                                    </div>
+                                </article>
+                            </dd>
+                        </dl>
+                    </section>
+                </section>
+            </section>
+        </div><!-- no_2 -->
+        <div class="no_3">
+            <section id="intro3" class="intro page1">
+                <div class="txtwrap">
+                    <h1>빙글빙글<i> </i><span>도는 포트폴리오 입니다.</span></h1>
+                    <h2>웹 디자인 &amp; 퍼블리셔 신입 이주호의</h2>
+                    <h3>방문자님의 일상도 원만하게 돌아갔으면 좋겠어요<i> </i><img src="images/smile.png" alt=""></h3>
+                </div>
+            </section>
+            <section class="publishing gnuboard page2">
+                <div class="txtwrap">
+                    <p>그누보드 메인 및 서브페이지<span> &#40;지점안내, 게시판&#41;</span></p>
+                    <h2>컬처클럽</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.04.24&nbsp;&nbsp;~&nbsp;&nbsp;2024.05.01
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>컬처클럽이 사람과 사람, 가족과 함께하는<br>
+                            문화교류의 장이라는 점에 착안하여<br>
+                            보는 사람이 안정된 느낌을 받도록 하였고,<br>
+                            이마트에서 운영하는 장소이므로 이마트가<br>
+                            연상되는 이마트 로고의 색을 주색으로 사용하여<br>
+                            홈페이지를 제작하였습니다.
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop<br>
+                            HTML5, CSS3, Javascript, Jquery, Gnuboard5</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="../g5" target="_blank" class="circleImage PUBImage">
+                        <img src="images/gnubo.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing univ page3">
+                <div class="txtwrap">
+                    <p>메인 리디자인</p>
+                    <h2>호서대학교</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.04.12&nbsp;&nbsp;~&nbsp;&nbsp;2024.04.21
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>호서대학교의 메인컬러 두가지를 활용하여<br>
+                            시각적인 재미를 유도하였으며,<br>
+                            자유분방한 듯 하면서 정돈된 UI를 통해<br>
+                            젊은 활기와 믿음직스러운 느낌을<br>
+                            동시에 받도록 하였습니다.<br>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="univ/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/univ.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing livart page4">
+                <div class="txtwrap">
+                    <p>풀페이지 메인 리디자인</p>
+                    <h2>리바트</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.03.13 ~ 2024.03.18</dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>리바트의 고급스러움과<br>
+                            예술적인 아름다움을 살리기 위해<br>
+                            간결하면서 공간감을 느낄 수 있도록<br>
+                            만드는 것에 중점을 두었습니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop,<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="livart/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/livart.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing downy page5">
+                <div class="txtwrap">
+                    <p>메인 리디자인</p>
+                    <h2>다우니</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.03.05 ~ 2024.03.11</dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>다우니의 청결한 느낌과 신뢰감,<br>
+                            섬유유연제의 부드럽고 매끄러운<br>
+                            감각을 구현하는 것에 중점을 두어<br>
+                            제작 및 리디자인 하였습니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="downy/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/downy.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing touslesjours page6">
+                <div class="txtwrap">
+                    <p>메인 반응형 리디자인</p>
+                    <h2>뚜레쥬르</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.01.10&nbsp;&nbsp;~&nbsp;&nbsp;2024.01.15, <br>
+                            2024.02.26 ~ 2024.02.29,<br>
+                            2024.04.02 ~ 2024.04.11<span> &#40;반응형&#41;</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>요소를 큼지막하고 선명하게 배치하여<br>
+                            방문자들이 먹음직스러운 제품에 흥미가 생겨<br>
+                            매장을 방문하도록 유도하고,<br>
+                            다양한 이벤트 정보를 한눈에 보이도록 배치하여<br>
+                            방문자의 지갑을 자극하도록 구성하였습니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="touslesjours/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/touslesjours.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing designWorks page7">
+                <div class="txtwrap">
+                    <h2>DESIGN<br><span>WORKS</span></h2>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <div class="circleImage DESIGNImage">
+                        <div class="swiper workswiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <a href="images/leaflet_page01.jpg" data-fancybox="gallery" class="swiper-slide turnImg"><img src="images/leaflet_page01.jpg" class="no1img"></a>
+                                <a data-fancybox href="images/cardnews.png" class="swiper-slide"><img src="images/cardnews/cardnewspreview.png" alt="" class="noneshadow no2img"></a>
+                                <a data-fancybox href="images/brading.png" class="swiper-slide"><img src="images/brading.png" alt="" class="no3img"></a>
+                                <a data-fancybox data-type="iframe" data-src="infographic/index.html" class="swiper-slide"><img src="images/infographics.png" alt="" class="no4img"></a>
+                            </div>
+                            <div class="swiper-button-prev"><img src="images/swiper_view.png" alt=""  class="buttonLike"></div>
+                            <div class="swiper-button-next"><img src="images/swiper_view.png" alt=""  class="buttonLike"></div>
+                        </div>
+                        <div class="circleImageBorderGradient"></div>
+                        <a href="images/leaflet_page02.jpg" data-fancybox="gallery" class="swiper-slide turnImg" style="display: none;"></a>
+                    </div>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <a href="#!" class="circle5"></a>
+                    </div>
+                </div>
+            </section>
+            <section class="profile page8">
+                <div class="border botborder"></div>
+                <div class="border topborder"></div>
+                <section class="inner">
+                    <section class="proLWrap">
+                        <figure>
+                            <div class="leaf"></div>
+                            <div class="proimage"></div>
+                            <div class="circlegroup">
+                                <div class="circlebox1">
+                                    <div class="circle1"></div>
+                                </div>
+                                <div class="circlebox2">
+                                    <div class="circle2"></div>
+                                </div>
+                                <div class="circlebox3">
+                                    <div class="circle3"></div>
+                                </div>
+                                <div class="circlebox4">
+                                    <div class="circle4"></div>
+                                </div>
+                                <div class="circlebox5">
+                                    <div class="circle5"></div>
+                                </div>
+                            </div>
+                        </figure>
+                        <p>Name : Lee Ju Ho<br>
+                            Phone : 010 - 5597 -3447<br>
+                            E-mail : pikswn@naver.com</p>
+                    </section>
+                    <section class="proRWrap">
+                        <dl>
+                            <dt>EDUCATION</dt>
+                            <dd><span class="font24px">양산직업학교</span><span class="txtRt">2023.12 ~ 2024.05</span></dd>
+                            <dd>ICT융합솔루션 개발 UI/UX 디자이너 양성과정 수료</dd>
+                            <dd><span class="font24px">경상국립대학교</span><span class="txtRt">2011.03 ~ 2020.02</span></dd>
+                            <dd>생화학과 졸업</dd>
+                        </dl>
+                        <dl>
+                            <dt>LICENSE</dt>
+                            <dd><span class="font24px">컴퓨터활용능력 2급</span><span class="txtRt">2023.01</span></dd>
+                        </dl>
+                        <dl>
+                            <dt>SKILLS</dt>
+                            <dd>
+                                <article class="skillIcons">
+                                    <div class="skillIcon">
+                                        <img src="images/skills/HTML.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>HTML</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/CSS.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>CSS</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/js.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>JavaScript</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/jQuery.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>jQuery</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Excel.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>Excel</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Figma.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>Figma</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Ai.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>Illustrator</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Ps.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>PhotoShop</p>
+                                    </div>
+                                </article>
+                            </dd>
+                        </dl>
+                    </section>
+                </section>
+            </section>
+        </div><!-- no_3 -->
+        <div class="no_4">
+            <section id="intro4" class="intro page1">
+                <div class="txtwrap">
+                    <h1>빙글빙글<i> </i><span>도는 포트폴리오 입니다.</span></h1>
+                    <h2>웹 디자인 &amp; 퍼블리셔 신입 이주호의</h2>
+                    <h3>방문자님의 일상도 원만하게 돌아갔으면 좋겠어요<i> </i><img src="images/smile.png" alt=""></h3>
+                </div>
+            </section>
+            <section class="publishing gnuboard page2">
+                <div class="txtwrap">
+                    <p>그누보드 메인 및 서브페이지<span> &#40;지점안내, 게시판&#41;</span></p>
+                    <h2>컬처클럽</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.04.24&nbsp;&nbsp;~&nbsp;&nbsp;2024.05.01
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>컬처클럽이 사람과 사람, 가족과 함께하는<br>
+                            문화교류의 장이라는 점에 착안하여<br>
+                            보는 사람이 안정된 느낌을 받도록 하였고,<br>
+                            이마트에서 운영하는 장소이므로 이마트가<br>
+                            연상되는 이마트 로고의 색을 주색으로 사용하여<br>
+                            홈페이지를 제작하였습니다.
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop<br>
+                            HTML5, CSS3, Javascript, Jquery, Gnuboard5</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="../g5" target="_blank" class="circleImage PUBImage">
+                        <img src="images/gnubo.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing univ page3">
+                <div class="txtwrap">
+                    <p>메인 리디자인</p>
+                    <h2>호서대학교</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.04.12&nbsp;&nbsp;~&nbsp;&nbsp;2024.04.21
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>호서대학교의 메인컬러 두가지를 활용하여<br>
+                            시각적인 재미를 유도하였으며,<br>
+                            자유분방한 듯 하면서 정돈된 UI를 통해<br>
+                            젊은 활기와 믿음직스러운 느낌을<br>
+                            동시에 받도록 하였습니다.<br>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="univ/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/univ.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing livart page4">
+                <div class="txtwrap">
+                    <p>풀페이지 메인 리디자인</p>
+                    <h2>리바트</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.03.13 ~ 2024.03.18</dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>리바트의 고급스러움과<br>
+                            예술적인 아름다움을 살리기 위해<br>
+                            간결하면서 공간감을 느낄 수 있도록<br>
+                            만드는 것에 중점을 두었습니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop,<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="livart/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/livart.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing downy page5">
+                <div class="txtwrap">
+                    <p>메인 리디자인</p>
+                    <h2>다우니</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.03.05 ~ 2024.03.11</dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>다우니의 청결한 느낌과 신뢰감,<br>
+                            섬유유연제의 부드럽고 매끄러운<br>
+                            감각을 구현하는 것에 중점을 두어<br>
+                            제작 및 리디자인 하였습니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="downy/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/downy.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing touslesjours page6">
+                <div class="txtwrap">
+                    <p>메인 반응형 리디자인</p>
+                    <h2>뚜레쥬르</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.01.10&nbsp;&nbsp;~&nbsp;&nbsp;2024.01.15, <br>
+                            2024.02.26 ~ 2024.02.29,<br>
+                            2024.04.02 ~ 2024.04.11<span> &#40;반응형&#41;</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>요소를 큼지막하고 선명하게 배치하여<br>
+                            방문자들이 먹음직스러운 제품에 흥미가 생겨<br>
+                            매장을 방문하도록 유도하고,<br>
+                            다양한 이벤트 정보를 한눈에 보이도록 배치하여<br>
+                            방문자의 지갑을 자극하도록 구성하였습니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="touslesjours/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/touslesjours.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing designWorks page7">
+                <div class="txtwrap">
+                    <h2>DESIGN<br><span>WORKS</span></h2>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <div class="circleImage DESIGNImage">
+                        <div class="swiper workswiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <a href="images/leaflet_page01.jpg" data-fancybox="gallery" class="swiper-slide turnImg"><img src="images/leaflet_page01.jpg" class="no1img"></a>
+                                <a data-fancybox href="images/cardnews.png" class="swiper-slide"><img src="images/cardnews/cardnewspreview.png" alt="" class="noneshadow no2img"></a>
+                                <a data-fancybox href="images/brading.png" class="swiper-slide"><img src="images/brading.png" alt="" class="no3img"></a>
+                                <a data-fancybox data-type="iframe" data-src="infographic/index.html" class="swiper-slide"><img src="images/infographics.png" alt="" class="no4img"></a>
+                            </div>
+                            <div class="swiper-button-prev"><img src="images/swiper_view.png" alt=""  class="buttonLike"></div>
+                            <div class="swiper-button-next"><img src="images/swiper_view.png" alt=""  class="buttonLike"></div>
+                        </div>
+                        <div class="circleImageBorderGradient"></div>
+                        <a href="images/leaflet_page02.jpg" data-fancybox="gallery" class="swiper-slide turnImg" style="display: none;"></a>
+                    </div>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <a href="#!" class="circle5"></a>
+                    </div>
+                </div>
+            </section>
+            <section class="profile page8">
+                <div class="border botborder"></div>
+                <div class="border topborder"></div>
+                <section class="inner">
+                    <section class="proLWrap">
+                        <figure>
+                            <div class="leaf"></div>
+                            <div class="proimage"></div>
+                            <div class="circlegroup">
+                                <div class="circlebox1">
+                                    <div class="circle1"></div>
+                                </div>
+                                <div class="circlebox2">
+                                    <div class="circle2"></div>
+                                </div>
+                                <div class="circlebox3">
+                                    <div class="circle3"></div>
+                                </div>
+                                <div class="circlebox4">
+                                    <div class="circle4"></div>
+                                </div>
+                                <div class="circlebox5">
+                                    <div class="circle5"></div>
+                                </div>
+                            </div>
+                        </figure>
+                        <p>Name : Lee Ju Ho<br>
+                            Phone : 010 - 5597 -3447<br>
+                            E-mail : pikswn@naver.com</p>
+                    </section>
+                    <section class="proRWrap">
+                        <dl>
+                            <dt>EDUCATION</dt>
+                            <dd><span class="font24px">양산직업학교</span><span class="txtRt">2023.12 ~ 2024.05</span></dd>
+                            <dd>ICT융합솔루션 개발 UI/UX 디자이너 양성과정 수료</dd>
+                            <dd><span class="font24px">경상국립대학교</span><span class="txtRt">2011.03 ~ 2020.02</span></dd>
+                            <dd>생화학과 졸업</dd>
+                        </dl>
+                        <dl>
+                            <dt>LICENSE</dt>
+                            <dd><span class="font24px">컴퓨터활용능력 2급</span><span class="txtRt">2023.01</span></dd>
+                        </dl>
+                        <dl>
+                            <dt>SKILLS</dt>
+                            <dd>
+                                <article class="skillIcons">
+                                    <div class="skillIcon">
+                                        <img src="images/skills/HTML.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>HTML</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/CSS.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>CSS</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/js.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>JavaScript</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/jQuery.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>jQuery</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Excel.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>Excel</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Figma.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>Figma</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Ai.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>Illustrator</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Ps.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>PhotoShop</p>
+                                    </div>
+                                </article>
+                            </dd>
+                        </dl>
+                    </section>
+                </section>
+            </section>
+        </div><!-- no_4 -->
+        <div class="no_5">
+            <section id="intro5" class="intro page1">
+                <div class="txtwrap">
+                    <h1>빙글빙글<i> </i><span>도는 포트폴리오 입니다.</span></h1>
+                    <h2>웹 디자인 &amp; 퍼블리셔 신입 이주호의</h2>
+                    <h3>방문자님의 일상도 원만하게 돌아갔으면 좋겠어요<i> </i><img src="images/smile.png" alt=""></h3>
+                </div>
+            </section>
+            <section class="publishing gnuboard page2">
+                <div class="txtwrap">
+                    <p>그누보드 메인 및 서브페이지<span> &#40;지점안내, 게시판&#41;</span></p>
+                    <h2>컬처클럽</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.04.24&nbsp;&nbsp;~&nbsp;&nbsp;2024.05.01
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>컬처클럽이 사람과 사람, 가족과 함께하는<br>
+                            문화교류의 장이라는 점에 착안하여<br>
+                            보는 사람이 안정된 느낌을 받도록 하였고,<br>
+                            이마트에서 운영하는 장소이므로 이마트가<br>
+                            연상되는 이마트 로고의 색을 주색으로 사용하여<br>
+                            홈페이지를 제작하였습니다.
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop<br>
+                            HTML5, CSS3, Javascript, Jquery, Gnuboard5</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="../g5" target="_blank" class="circleImage PUBImage">
+                        <img src="images/gnubo.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing univ page3">
+                <div class="txtwrap">
+                    <p>메인 리디자인</p>
+                    <h2>호서대학교</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.04.12&nbsp;&nbsp;~&nbsp;&nbsp;2024.04.21
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>호서대학교의 메인컬러 두가지를 활용하여<br>
+                            시각적인 재미를 유도하였으며,<br>
+                            자유분방한 듯 하면서 정돈된 UI를 통해<br>
+                            젊은 활기와 믿음직스러운 느낌을<br>
+                            동시에 받도록 하였습니다.<br>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="univ/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/univ.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing livart page4">
+                <div class="txtwrap">
+                    <p>풀페이지 메인 리디자인</p>
+                    <h2>리바트</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.03.13 ~ 2024.03.18</dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>리바트의 고급스러움과<br>
+                            예술적인 아름다움을 살리기 위해<br>
+                            간결하면서 공간감을 느낄 수 있도록<br>
+                            만드는 것에 중점을 두었습니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop,<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="livart/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/livart.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing downy page5">
+                <div class="txtwrap">
+                    <p>메인 리디자인</p>
+                    <h2>다우니</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.03.05 ~ 2024.03.11</dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>다우니의 청결한 느낌과 신뢰감,<br>
+                            섬유유연제의 부드럽고 매끄러운<br>
+                            감각을 구현하는 것에 중점을 두어<br>
+                            제작 및 리디자인 하였습니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="downy/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/downy.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing touslesjours page6">
+                <div class="txtwrap">
+                    <p>메인 반응형 리디자인</p>
+                    <h2>뚜레쥬르</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.01.10&nbsp;&nbsp;~&nbsp;&nbsp;2024.01.15, <br>
+                            2024.02.26 ~ 2024.02.29,<br>
+                            2024.04.02 ~ 2024.04.11<span> &#40;반응형&#41;</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>요소를 큼지막하고 선명하게 배치하여<br>
+                            방문자들이 먹음직스러운 제품에 흥미가 생겨<br>
+                            매장을 방문하도록 유도하고,<br>
+                            다양한 이벤트 정보를 한눈에 보이도록 배치하여<br>
+                            방문자의 지갑을 자극하도록 구성하였습니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="touslesjours/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/touslesjours.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing designWorks page7">
+                <div class="txtwrap">
+                    <h2>DESIGN<br><span>WORKS</span></h2>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <div class="circleImage DESIGNImage">
+                        <div class="swiper workswiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <a href="images/leaflet_page01.jpg" data-fancybox="gallery" class="swiper-slide turnImg"><img src="images/leaflet_page01.jpg" class="no1img"></a>
+                                <a data-fancybox href="images/cardnews.png" class="swiper-slide"><img src="images/cardnews/cardnewspreview.png" alt="" class="noneshadow no2img"></a>
+                                <a data-fancybox href="images/brading.png" class="swiper-slide"><img src="images/brading.png" alt="" class="no3img"></a>
+                                <a data-fancybox data-type="iframe" data-src="infographic/index.html" class="swiper-slide"><img src="images/infographics.png" alt="" class="no4img"></a>
+                            </div>
+                            <div class="swiper-button-prev"><img src="images/swiper_view.png" alt=""  class="buttonLike"></div>
+                            <div class="swiper-button-next"><img src="images/swiper_view.png" alt=""  class="buttonLike"></div>
+                        </div>
+                        <div class="circleImageBorderGradient"></div>
+                        <a href="images/leaflet_page02.jpg" data-fancybox="gallery" class="swiper-slide turnImg" style="display: none;"></a>
+                    </div>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <a href="#!" class="circle5"></a>
+                    </div>
+                </div>
+            </section>
+            <section class="profile page8">
+                <div class="border botborder"></div>
+                <div class="border topborder"></div>
+                <section class="inner">
+                    <section class="proLWrap">
+                        <figure>
+                            <div class="leaf"></div>
+                            <div class="proimage"></div>
+                            <div class="circlegroup">
+                                <div class="circlebox1">
+                                    <div class="circle1"></div>
+                                </div>
+                                <div class="circlebox2">
+                                    <div class="circle2"></div>
+                                </div>
+                                <div class="circlebox3">
+                                    <div class="circle3"></div>
+                                </div>
+                                <div class="circlebox4">
+                                    <div class="circle4"></div>
+                                </div>
+                                <div class="circlebox5">
+                                    <div class="circle5"></div>
+                                </div>
+                            </div>
+                        </figure>
+                        <p>Name : Lee Ju Ho<br>
+                            Phone : 010 - 5597 -3447<br>
+                            E-mail : pikswn@naver.com</p>
+                    </section>
+                    <section class="proRWrap">
+                        <dl>
+                            <dt>EDUCATION</dt>
+                            <dd><span class="font24px">양산직업학교</span><span class="txtRt">2023.12 ~ 2024.05</span></dd>
+                            <dd>ICT융합솔루션 개발 UI/UX 디자이너 양성과정 수료</dd>
+                            <dd><span class="font24px">경상국립대학교</span><span class="txtRt">2011.03 ~ 2020.02</span></dd>
+                            <dd>생화학과 졸업</dd>
+                        </dl>
+                        <dl>
+                            <dt>LICENSE</dt>
+                            <dd><span class="font24px">컴퓨터활용능력 2급</span><span class="txtRt">2023.01</span></dd>
+                        </dl>
+                        <dl>
+                            <dt>SKILLS</dt>
+                            <dd>
+                                <article class="skillIcons">
+                                    <div class="skillIcon">
+                                        <img src="images/skills/HTML.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>HTML</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/CSS.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>CSS</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/js.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>JavaScript</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/jQuery.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>jQuery</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Excel.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>Excel</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Figma.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>Figma</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Ai.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>Illustrator</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Ps.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>PhotoShop</p>
+                                    </div>
+                                </article>
+                            </dd>
+                        </dl>
+                    </section>
+                </section>
+            </section>
+        </div><!-- no_5 -->
+        <div class="no_6">
+            <section id="intro6" class="intro page1">
+                <div class="txtwrap">
+                    <h1>빙글빙글<i> </i><span>도는 포트폴리오 입니다.</span></h1>
+                    <h2>웹 디자인 &amp; 퍼블리셔 신입 이주호의</h2>
+                    <h3>방문자님의 일상도 원만하게 돌아갔으면 좋겠어요<i> </i><img src="images/smile.png" alt=""></h3>
+                </div>
+            </section>
+            <section class="publishing gnuboard page2">
+                <div class="txtwrap">
+                    <p>그누보드 메인 및 서브페이지<span> &#40;지점안내, 게시판&#41;</span></p>
+                    <h2>컬처클럽</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.04.24&nbsp;&nbsp;~&nbsp;&nbsp;2024.05.01
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>컬처클럽이 사람과 사람, 가족과 함께하는<br>
+                            문화교류의 장이라는 점에 착안하여<br>
+                            보는 사람이 안정된 느낌을 받도록 하였고,<br>
+                            이마트에서 운영하는 장소이므로 이마트가<br>
+                            연상되는 이마트 로고의 색을 주색으로 사용하여<br>
+                            홈페이지를 제작하였습니다.
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop<br>
+                            HTML5, CSS3, Javascript, Jquery, Gnuboard5</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="../g5" target="_blank" class="circleImage PUBImage">
+                        <img src="images/gnubo.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing univ page3">
+                <div class="txtwrap">
+                    <p>메인 리디자인</p>
+                    <h2>호서대학교</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.04.12&nbsp;&nbsp;~&nbsp;&nbsp;2024.04.21
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>호서대학교의 메인컬러 두가지를 활용하여<br>
+                            시각적인 재미를 유도하였으며,<br>
+                            자유분방한 듯 하면서 정돈된 UI를 통해<br>
+                            젊은 활기와 믿음직스러운 느낌을<br>
+                            동시에 받도록 하였습니다.<br>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="univ/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/univ.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing livart page4">
+                <div class="txtwrap">
+                    <p>풀페이지 메인 리디자인</p>
+                    <h2>리바트</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.03.13 ~ 2024.03.18</dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>리바트의 고급스러움과<br>
+                            예술적인 아름다움을 살리기 위해<br>
+                            간결하면서 공간감을 느낄 수 있도록<br>
+                            만드는 것에 중점을 두었습니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop,<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="livart/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/livart.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing downy page5">
+                <div class="txtwrap">
+                    <p>메인 리디자인</p>
+                    <h2>다우니</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.03.05 ~ 2024.03.11</dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>다우니의 청결한 느낌과 신뢰감,<br>
+                            섬유유연제의 부드럽고 매끄러운<br>
+                            감각을 구현하는 것에 중점을 두어<br>
+                            제작 및 리디자인 하였습니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="downy/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/downy.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing touslesjours page6">
+                <div class="txtwrap">
+                    <p>메인 반응형 리디자인</p>
+                    <h2>뚜레쥬르</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.01.10&nbsp;&nbsp;~&nbsp;&nbsp;2024.01.15, <br>
+                            2024.02.26 ~ 2024.02.29,<br>
+                            2024.04.02 ~ 2024.04.11<span> &#40;반응형&#41;</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>요소를 큼지막하고 선명하게 배치하여<br>
+                            방문자들이 먹음직스러운 제품에 흥미가 생겨<br>
+                            매장을 방문하도록 유도하고,<br>
+                            다양한 이벤트 정보를 한눈에 보이도록 배치하여<br>
+                            방문자의 지갑을 자극하도록 구성하였습니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="touslesjours/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/touslesjours.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing designWorks page7">
+                <div class="txtwrap">
+                    <h2>DESIGN<br><span>WORKS</span></h2>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <div class="circleImage DESIGNImage">
+                        <div class="swiper workswiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <a href="images/leaflet_page01.jpg" data-fancybox="gallery" class="swiper-slide turnImg"><img src="images/leaflet_page01.jpg" class="no1img"></a>
+                                <a data-fancybox href="images/cardnews.png" class="swiper-slide"><img src="images/cardnews/cardnewspreview.png" alt="" class="noneshadow no2img"></a>
+                                <a data-fancybox href="images/brading.png" class="swiper-slide"><img src="images/brading.png" alt="" class="no3img"></a>
+                                <a data-fancybox data-type="iframe" data-src="infographic/index.html" class="swiper-slide"><img src="images/infographics.png" alt="" class="no4img"></a>
+                            </div>
+                            <div class="swiper-button-prev"><img src="images/swiper_view.png" alt=""  class="buttonLike"></div>
+                            <div class="swiper-button-next"><img src="images/swiper_view.png" alt=""  class="buttonLike"></div>
+                        </div>
+                        <div class="circleImageBorderGradient"></div>
+                        <a href="images/leaflet_page02.jpg" data-fancybox="gallery" class="swiper-slide turnImg" style="display: none;"></a>
+                    </div>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <a href="#!" class="circle5"></a>
+                    </div>
+                </div>
+            </section>
+            <section class="profile page8">
+                <div class="border botborder"></div>
+                <div class="border topborder"></div>
+                <section class="inner">
+                    <section class="proLWrap">
+                        <figure>
+                            <div class="leaf"></div>
+                            <div class="proimage"></div>
+                            <div class="circlegroup">
+                                <div class="circlebox1">
+                                    <div class="circle1"></div>
+                                </div>
+                                <div class="circlebox2">
+                                    <div class="circle2"></div>
+                                </div>
+                                <div class="circlebox3">
+                                    <div class="circle3"></div>
+                                </div>
+                                <div class="circlebox4">
+                                    <div class="circle4"></div>
+                                </div>
+                                <div class="circlebox5">
+                                    <div class="circle5"></div>
+                                </div>
+                            </div>
+                        </figure>
+                        <p>Name : Lee Ju Ho<br>
+                            Phone : 010 - 5597 -3447<br>
+                            E-mail : pikswn@naver.com</p>
+                    </section>
+                    <section class="proRWrap">
+                        <dl>
+                            <dt>EDUCATION</dt>
+                            <dd><span class="font24px">양산직업학교</span><span class="txtRt">2023.12 ~ 2024.05</span></dd>
+                            <dd>ICT융합솔루션 개발 UI/UX 디자이너 양성과정 수료</dd>
+                            <dd><span class="font24px">경상국립대학교</span><span class="txtRt">2011.03 ~ 2020.02</span></dd>
+                            <dd>생화학과 졸업</dd>
+                        </dl>
+                        <dl>
+                            <dt>LICENSE</dt>
+                            <dd><span class="font24px">컴퓨터활용능력 2급</span><span class="txtRt">2023.01</span></dd>
+                        </dl>
+                        <dl>
+                            <dt>SKILLS</dt>
+                            <dd>
+                                <article class="skillIcons">
+                                    <div class="skillIcon">
+                                        <img src="images/skills/HTML.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>HTML</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/CSS.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>CSS</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/js.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>JavaScript</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/jQuery.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>jQuery</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Excel.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>Excel</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Figma.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>Figma</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Ai.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>Illustrator</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Ps.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>PhotoShop</p>
+                                    </div>
+                                </article>
+                            </dd>
+                        </dl>
+                    </section>
+                </section>
+            </section>
+        </div><!-- no_6 -->
+        <div class="no_7">
+            <section id="intro7" class="intro page1">
+                <div class="txtwrap">
+                    <h1>빙글빙글<i> </i><span>도는 포트폴리오 입니다.</span></h1>
+                    <h2>웹 디자인 &amp; 퍼블리셔 신입 이주호의</h2>
+                    <h3>방문자님의 일상도 원만하게 돌아갔으면 좋겠어요<i> </i><img src="images/smile.png" alt=""></h3>
+                </div>
+            </section>
+            <section class="publishing gnuboard page2">
+                <div class="txtwrap">
+                    <p>그누보드 메인 및 서브페이지<span> &#40;지점안내, 게시판&#41;</span></p>
+                    <h2>컬처클럽</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.04.24&nbsp;&nbsp;~&nbsp;&nbsp;2024.05.01
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>컬처클럽이 사람과 사람, 가족과 함께하는<br>
+                            문화교류의 장이라는 점에 착안하여<br>
+                            보는 사람이 안정된 느낌을 받도록 하였고,<br>
+                            이마트에서 운영하는 장소이므로 이마트가<br>
+                            연상되는 이마트 로고의 색을 주색으로 사용하여<br>
+                            홈페이지를 제작하였습니다.
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop<br>
+                            HTML5, CSS3, Javascript, Jquery, Gnuboard5</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="../g5" target="_blank" class="circleImage PUBImage">
+                        <img src="images/gnubo.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing univ page3">
+                <div class="txtwrap">
+                    <p>메인 리디자인</p>
+                    <h2>호서대학교</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.04.12&nbsp;&nbsp;~&nbsp;&nbsp;2024.04.21
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>호서대학교의 메인컬러 두가지를 활용하여<br>
+                            시각적인 재미를 유도하였으며,<br>
+                            자유분방한 듯 하면서 정돈된 UI를 통해<br>
+                            젊은 활기와 믿음직스러운 느낌을<br>
+                            동시에 받도록 하였습니다.<br>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="univ/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/univ.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing livart page4">
+                <div class="txtwrap">
+                    <p>풀페이지 메인 리디자인</p>
+                    <h2>리바트</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.03.13 ~ 2024.03.18</dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>리바트의 고급스러움과<br>
+                            예술적인 아름다움을 살리기 위해<br>
+                            간결하면서 공간감을 느낄 수 있도록<br>
+                            만드는 것에 중점을 두었습니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop,<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="livart/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/livart.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing downy page5">
+                <div class="txtwrap">
+                    <p>메인 리디자인</p>
+                    <h2>다우니</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.03.05 ~ 2024.03.11</dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>다우니의 청결한 느낌과 신뢰감,<br>
+                            섬유유연제의 부드럽고 매끄러운<br>
+                            감각을 구현하는 것에 중점을 두어<br>
+                            제작 및 리디자인 하였습니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="downy/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/downy.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing touslesjours page6">
+                <div class="txtwrap">
+                    <p>메인 반응형 리디자인</p>
+                    <h2>뚜레쥬르</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.01.10&nbsp;&nbsp;~&nbsp;&nbsp;2024.01.15, <br>
+                            2024.02.26 ~ 2024.02.29,<br>
+                            2024.04.02 ~ 2024.04.11<span> &#40;반응형&#41;</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>요소를 큼지막하고 선명하게 배치하여<br>
+                            방문자들이 먹음직스러운 제품에 흥미가 생겨<br>
+                            매장을 방문하도록 유도하고,<br>
+                            다양한 이벤트 정보를 한눈에 보이도록 배치하여<br>
+                            방문자의 지갑을 자극하도록 구성하였습니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="touslesjours/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/touslesjours.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing designWorks page7">
+                <div class="txtwrap">
+                    <h2>DESIGN<br><span>WORKS</span></h2>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <div class="circleImage DESIGNImage">
+                        <div class="swiper workswiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <a href="images/leaflet_page01.jpg" data-fancybox="gallery" class="swiper-slide turnImg"><img src="images/leaflet_page01.jpg" class="no1img"></a>
+                                <a data-fancybox href="images/cardnews.png" class="swiper-slide"><img src="images/cardnews/cardnewspreview.png" alt="" class="noneshadow no2img"></a>
+                                <a data-fancybox href="images/brading.png" class="swiper-slide"><img src="images/brading.png" alt="" class="no3img"></a>
+                                <a data-fancybox data-type="iframe" data-src="infographic/index.html" class="swiper-slide"><img src="images/infographics.png" alt="" class="no4img"></a>
+                            </div>
+                            <div class="swiper-button-prev"><img src="images/swiper_view.png" alt=""  class="buttonLike"></div>
+                            <div class="swiper-button-next"><img src="images/swiper_view.png" alt=""  class="buttonLike"></div>
+                        </div>
+                        <div class="circleImageBorderGradient"></div>
+                        <a href="images/leaflet_page02.jpg" data-fancybox="gallery" class="swiper-slide turnImg" style="display: none;"></a>
+                    </div>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <a href="#!" class="circle5"></a>
+                    </div>
+                </div>
+            </section>
+            <section class="profile page8">
+                <div class="border botborder"></div>
+                <div class="border topborder"></div>
+                <section class="inner">
+                    <section class="proLWrap">
+                        <figure>
+                            <div class="leaf"></div>
+                            <div class="proimage"></div>
+                            <div class="circlegroup">
+                                <div class="circlebox1">
+                                    <div class="circle1"></div>
+                                </div>
+                                <div class="circlebox2">
+                                    <div class="circle2"></div>
+                                </div>
+                                <div class="circlebox3">
+                                    <div class="circle3"></div>
+                                </div>
+                                <div class="circlebox4">
+                                    <div class="circle4"></div>
+                                </div>
+                                <div class="circlebox5">
+                                    <div class="circle5"></div>
+                                </div>
+                            </div>
+                        </figure>
+                        <p>Name : Lee Ju Ho<br>
+                            Phone : 010 - 5597 -3447<br>
+                            E-mail : pikswn@naver.com</p>
+                    </section>
+                    <section class="proRWrap">
+                        <dl>
+                            <dt>EDUCATION</dt>
+                            <dd><span class="font24px">양산직업학교</span><span class="txtRt">2023.12 ~ 2024.05</span></dd>
+                            <dd>ICT융합솔루션 개발 UI/UX 디자이너 양성과정 수료</dd>
+                            <dd><span class="font24px">경상국립대학교</span><span class="txtRt">2011.03 ~ 2020.02</span></dd>
+                            <dd>생화학과 졸업</dd>
+                        </dl>
+                        <dl>
+                            <dt>LICENSE</dt>
+                            <dd><span class="font24px">컴퓨터활용능력 2급</span><span class="txtRt">2023.01</span></dd>
+                        </dl>
+                        <dl>
+                            <dt>SKILLS</dt>
+                            <dd>
+                                <article class="skillIcons">
+                                    <div class="skillIcon">
+                                        <img src="images/skills/HTML.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>HTML</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/CSS.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>CSS</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/js.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>JavaScript</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/jQuery.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>jQuery</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Excel.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>Excel</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Figma.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>Figma</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Ai.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>Illustrator</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Ps.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>PhotoShop</p>
+                                    </div>
+                                </article>
+                            </dd>
+                        </dl>
+                    </section>
+                </section>
+            </section>
+        </div><!-- no_7 -->
+        <div class="no_8">
+            <section id="intro8" class="intro page1">
+                <div class="txtwrap">
+                    <h1>빙글빙글<i> </i><span>도는 포트폴리오 입니다.</span></h1>
+                    <h2>웹 디자인 &amp; 퍼블리셔 신입 이주호의</h2>
+                    <h3>방문자님의 일상도 원만하게 돌아갔으면 좋겠어요<i> </i><img src="images/smile.png" alt=""></h3>
+                </div>
+            </section>
+            <section class="publishing gnuboard page2">
+                <div class="txtwrap">
+                    <p>그누보드 메인 및 서브페이지<span> &#40;지점안내, 게시판&#41;</span></p>
+                    <h2>컬처클럽</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.04.24&nbsp;&nbsp;~&nbsp;&nbsp;2024.05.01
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>컬처클럽이 사람과 사람, 가족과 함께하는<br>
+                            문화교류의 장이라는 점에 착안하여<br>
+                            보는 사람이 안정된 느낌을 받도록 하였고,<br>
+                            이마트에서 운영하는 장소이므로 이마트가<br>
+                            연상되는 이마트 로고의 색을 주색으로 사용하여<br>
+                            홈페이지를 제작하였습니다.
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop<br>
+                            HTML5, CSS3, Javascript, Jquery, Gnuboard5</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="../g5" target="_blank" class="circleImage PUBImage">
+                        <img src="images/gnubo.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing univ page3">
+                <div class="txtwrap">
+                    <p>메인 리디자인</p>
+                    <h2>호서대학교</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.04.12&nbsp;&nbsp;~&nbsp;&nbsp;2024.04.21
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>호서대학교의 메인컬러 두가지를 활용하여<br>
+                            시각적인 재미를 유도하였으며,<br>
+                            자유분방한 듯 하면서 정돈된 UI를 통해<br>
+                            젊은 활기와 믿음직스러운 느낌을<br>
+                            동시에 받도록 하였습니다.<br>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="univ/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/univ.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing livart page4">
+                <div class="txtwrap">
+                    <p>풀페이지 메인 리디자인</p>
+                    <h2>리바트</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.03.13 ~ 2024.03.18</dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>리바트의 고급스러움과<br>
+                            예술적인 아름다움을 살리기 위해<br>
+                            간결하면서 공간감을 느낄 수 있도록<br>
+                            만드는 것에 중점을 두었습니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop,<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="livart/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/livart.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing downy page5">
+                <div class="txtwrap">
+                    <p>메인 리디자인</p>
+                    <h2>다우니</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.03.05 ~ 2024.03.11</dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>다우니의 청결한 느낌과 신뢰감,<br>
+                            섬유유연제의 부드럽고 매끄러운<br>
+                            감각을 구현하는 것에 중점을 두어<br>
+                            제작 및 리디자인 하였습니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="downy/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/downy.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing touslesjours page6">
+                <div class="txtwrap">
+                    <p>메인 반응형 리디자인</p>
+                    <h2>뚜레쥬르</h2>
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2024.01.10&nbsp;&nbsp;~&nbsp;&nbsp;2024.01.15, <br>
+                            2024.02.26 ~ 2024.02.29,<br>
+                            2024.04.02 ~ 2024.04.11<span> &#40;반응형&#41;</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>기획의도</dt>
+                        <dd>요소를 큼지막하고 선명하게 배치하여<br>
+                            방문자들이 먹음직스러운 제품에 흥미가 생겨<br>
+                            매장을 방문하도록 유도하고,<br>
+                            다양한 이벤트 정보를 한눈에 보이도록 배치하여<br>
+                            방문자의 지갑을 자극하도록 구성하였습니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt>컬러</dt>
+                        <dd>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                            <div class="palette"></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator<br>
+                            HTML5, CSS3, Javascript, Jquery</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <a href="touslesjours/index.html" target="_blank" class="circleImage PUBImage">
+                        <img src="images/touslesjours.jpg" alt="">
+                        <div class="circleImageBorderGradient"></div>
+                    </a>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <div class="circle5"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="publishing designWorks page7">
+                <div class="txtwrap">
+                    <h2>DESIGN<br><span>WORKS</span></h2>
+                    <dl>
+                        <dt>사용 툴</dt>
+                        <dd>Figma, Photoshop, Illustrator</dd>
+                    </dl>
+                </div>
+                <div class="circlegroup">
+                    <div class="circleImage DESIGNImage">
+                        <div class="swiper workswiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <a href="images/leaflet_page01.jpg" data-fancybox="gallery" class="swiper-slide turnImg"><img src="images/leaflet_page01.jpg" class="no1img"></a>
+                                <a data-fancybox href="images/cardnews.png" class="swiper-slide"><img src="images/cardnews/cardnewspreview.png" alt="" class="noneshadow no2img"></a>
+                                <a data-fancybox href="images/brading.png" class="swiper-slide"><img src="images/brading.png" alt="" class="no3img"></a>
+                                <a data-fancybox data-type="iframe" data-src="infographic/index.html" class="swiper-slide"><img src="images/infographics.png" alt="" class="no4img"></a>
+                            </div>
+                            <div class="swiper-button-prev"><img src="images/swiper_view.png" alt=""  class="buttonLike"></div>
+                            <div class="swiper-button-next"><img src="images/swiper_view.png" alt=""  class="buttonLike"></div>
+                        </div>
+                        <div class="circleImageBorderGradient"></div>
+                        <a href="images/leaflet_page02.jpg" data-fancybox="gallery" class="swiper-slide turnImg" style="display: none;"></a>
+                    </div>
+                    <div class="circlebox1">
+                        <div class="circle1"></div>
+                    </div>
+                    <div class="circlebox2">
+                        <div class="circle2"></div>
+                    </div>
+                    <div class="circlebox3">
+                        <div class="circle3"></div>
+                    </div>
+                    <div class="circlebox4">
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="circlebox5">
+                        <a href="#!" class="circle5"></a>
+                    </div>
+                </div>
+            </section>
+            <section class="profile page8">
+                <div class="border botborder"></div>
+                <div class="border topborder"></div>
+                <section class="inner">
+                    <section class="proLWrap">
+                        <figure>
+                            <div class="leaf"></div>
+                            <div class="proimage"></div>
+                            <div class="circlegroup">
+                                <div class="circlebox1">
+                                    <div class="circle1"></div>
+                                </div>
+                                <div class="circlebox2">
+                                    <div class="circle2"></div>
+                                </div>
+                                <div class="circlebox3">
+                                    <div class="circle3"></div>
+                                </div>
+                                <div class="circlebox4">
+                                    <div class="circle4"></div>
+                                </div>
+                                <div class="circlebox5">
+                                    <div class="circle5"></div>
+                                </div>
+                            </div>
+                        </figure>
+                        <p>Name : Lee Ju Ho<br>
+                            Phone : 010 - 5597 -3447<br>
+                            E-mail : pikswn@naver.com</p>
+                    </section>
+                    <section class="proRWrap">
+                        <dl>
+                            <dt>EDUCATION</dt>
+                            <dd><span class="font24px">양산직업학교</span><span class="txtRt">2023.12 ~ 2024.05</span></dd>
+                            <dd>ICT융합솔루션 개발 UI/UX 디자이너 양성과정 수료</dd>
+                            <dd><span class="font24px">경상국립대학교</span><span class="txtRt">2011.03 ~ 2020.02</span></dd>
+                            <dd>생화학과 졸업</dd>
+                        </dl>
+                        <dl>
+                            <dt>LICENSE</dt>
+                            <dd><span class="font24px">컴퓨터활용능력 2급</span><span class="txtRt">2023.01</span></dd>
+                        </dl>
+                        <dl>
+                            <dt>SKILLS</dt>
+                            <dd>
+                                <article class="skillIcons">
+                                    <div class="skillIcon">
+                                        <img src="images/skills/HTML.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>HTML</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/CSS.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>CSS</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/js.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>JavaScript</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/jQuery.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>jQuery</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Excel.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>Excel</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Figma.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>Figma</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Ai.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>Illustrator</p>
+                                    </div>
+                                    <div class="skillIcon">
+                                        <img src="images/skills/Ps.png" alt="">
+                                        <div class="rotateScore"></div>
+                                        <p>PhotoShop</p>
+                                    </div>
+                                </article>
+                            </dd>
+                        </dl>
+                    </section>
+                </section>
+            </section>
+        </div><!-- no_8 -->
+    </div>
+    <div id="mouse">
+        <div class="circlebox1">
+            <div class="circle1"></div>
+        </div>
+        <div class="circlebox2">
+            <div class="circle2"></div>
+        </div>
+        <div class="circlebox3">
+            <div class="circle3"></div>
+        </div>
+        <div class="circlebox4">
+            <div class="circle4"></div>
+        </div>
+        <div class="circlebox5">
+            <div class="circle5"></div>
+        </div>
+    </div>
+</body>
+</html>

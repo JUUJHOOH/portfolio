@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css");
+/* 프리텐다드: 얇은체 100, 매우가는체 200, 가는체 300, 일반체 400, 중간체 500, 세미볼드체 600, 볼드체 700, 엑스트라볼드체 800, 블랙체 900 */
+
+/* icon */
+@import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    font-family: Pretendard, sans-serif;
+    /* line-height: 1; */
+    letter-spacing: unset;
+    /* letter-spacing: 자간을 조절해주는 명령어 */
+}
+
+em,
+address {
+    font-style: normal;
+}
+.hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
