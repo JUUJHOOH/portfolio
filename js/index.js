@@ -1,6 +1,7 @@
 $(document).ready(function (){
     let didScroll;
 
+    const array = ['x','intro','NaGyeongStone','gnuboard','univ','livart','downy','touslesjours','designWorks','profile'];
     const pageCount = 8; // pageCount 총 페이지의 수
     const toNextScroll = 250; // toNextScroll 다음 페이지로 넘어가기 위한 스크롤 입력 값
     const multiple = 20; // multiple 반복수
@@ -15,6 +16,8 @@ $(document).ready(function (){
     navbtn_int.onclick = () => {$(window).scrollTop(toNextScroll*pageCount*centerValue)};
     const navbtn_pub = document.querySelector('.navbtn_pub');
     navbtn_pub.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+1)+1)};
+
+
         const navbtn_gnuboard = document.querySelector('.navbtn_gnuboard');
         navbtn_gnuboard.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+1)+1)};
         const navbtn_univ = document.querySelector('.navbtn_univ');
@@ -31,13 +34,14 @@ $(document).ready(function (){
     navbtn_prf.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+7)+1)};
 
     const intro = document.querySelector(".elementsWrap>.intro");
-    const page2 = document.querySelector(".elementsWrap>.page2");
-    const page3 = document.querySelector(".elementsWrap>.page3");
-    const page4 = document.querySelector(".elementsWrap>.page4");
-    const page5 = document.querySelector(".elementsWrap>.page5");
-    const page6 = document.querySelector(".elementsWrap>.page6");
-    const page7 = document.querySelector(".elementsWrap>.page7");
-    const page8 = document.querySelector(".elementsWrap>.page8");
+    const gnuboard = document.querySelector(".elementsWrap>.gnuboard");
+    const univ = document.querySelector(".elementsWrap>.univ");
+    const livart = document.querySelector(".elementsWrap>.livart");
+    const downy = document.querySelector(".elementsWrap>.downy");
+    const touslesjours = document.querySelector(".elementsWrap>.touslesjours");
+    const designWorks = document.querySelector(".elementsWrap>.designWorks");
+    const profile = document.querySelector(".elementsWrap>.profile");
+    const page9 = document.querySelector(".elementsWrap>.page9");
 
     window.addEventListener('scroll', function(){
         didScroll = true;
@@ -79,79 +83,79 @@ $(document).ready(function (){
 
                 $('.navbtn_int').addClass('opa1').removeClass('opa04').parent().siblings().find('a').removeClass('opa1').addClass('opa04');
             };
-            //page2
+            //gnuboard
             if (sctop >= i*(toNextScroll*pageCount)+toNextScroll && sctop < i*(toNextScroll*pageCount)+toNextScroll*2) {
-                let page2Num = (88888+(4+((pageCount-8)*i)))%8
-                if (page2Num == 0){page2Num = 8};
-                let page2Receiver = document.querySelector(".no_"+page2Num);
-                page2Receiver.innerHTML = '';
-                page2Receiver.appendChild(page2);
+                let gnuboardNum = (88888+(4+((pageCount-8)*i)))%8
+                if (gnuboardNum == 0){gnuboardNum = 8};
+                let gnuboardReceiver = document.querySelector(".no_"+gnuboardNum);
+                gnuboardReceiver.innerHTML = '';
+                gnuboardReceiver.appendChild(gnuboard);
                 $('body').css({'background':'#FEB203'})
 
                 $('.navbtn_gnuboard').addClass('opa1').removeClass('opa04').parent().siblings().find('a').removeClass('opa1').addClass('opa04');
             };
-            //page3
+            //univ
             if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*2 && sctop < i*(toNextScroll*pageCount)+toNextScroll*3) {
-                let page3Num = (88888+(5+((pageCount-8)*i)))%8
-                if (page3Num == 0){page3Num = 8};
-                let page3Receiver = document.querySelector(".no_"+page3Num);
-                page3Receiver.innerHTML = '';
-                page3Receiver.appendChild(page3);
+                let univNum = (88888+(5+((pageCount-8)*i)))%8
+                if (univNum == 0){univNum = 8};
+                let univReceiver = document.querySelector(".no_"+univNum);
+                univReceiver.innerHTML = '';
+                univReceiver.appendChild(univ);
                 $('body').css({'background':'#92d5e6'})
 
                 $('.navbtn_univ').addClass('opa1').removeClass('opa04').parent().siblings().find('a').removeClass('opa1').addClass('opa04');
             };
-            //page4
+            //livart
             if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*3 && sctop < i*(toNextScroll*pageCount)+toNextScroll*4) {
-                let page4Num = (88888+(6+((pageCount-8)*i)))%8
-                if (page4Num == 0){page4Num = 8};
-                let page4Receiver = document.querySelector(".no_"+page4Num);
-                page4Receiver.innerHTML = '';
-                page4Receiver.appendChild(page4);
+                let livartNum = (88888+(6+((pageCount-8)*i)))%8
+                if (livartNum == 0){livartNum = 8};
+                let livartReceiver = document.querySelector(".no_"+livartNum);
+                livartReceiver.innerHTML = '';
+                livartReceiver.appendChild(livart);
                 $('body').css({'background':'#DAC3A3'})
 
                 $('.navbtn_livart').addClass('opa1').removeClass('opa04').parent().siblings().find('a').removeClass('opa1').addClass('opa04');
             };
-            //page5
+            //downy
             if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*4 && sctop < i*(toNextScroll*pageCount)+toNextScroll*5) {
-                let page5Num = (88888+(7+((pageCount-8)*i)))%8
-                if (page5Num == 0){page5Num = 8};
-                let page5Receiver = document.querySelector(".no_"+page5Num);
-                page5Receiver.innerHTML = '';
-                page5Receiver.appendChild(page5);
+                let downyNum = (88888+(7+((pageCount-8)*i)))%8
+                if (downyNum == 0){downyNum = 8};
+                let downyReceiver = document.querySelector(".no_"+downyNum);
+                downyReceiver.innerHTML = '';
+                downyReceiver.appendChild(downy);
                 $('body').css({'background':'#E0F4FF'})
 
                 $('.navbtn_downy').addClass('opa1').removeClass('opa04').parent().siblings().find('a').removeClass('opa1').addClass('opa04');
             };
-            //page6
+            //touslesjours
             if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*5 && sctop < i*(toNextScroll*pageCount)+toNextScroll*6) {
-                let page6Num = (88888+(8+((pageCount-8)*i)))%8
-                if (page6Num == 0){page6Num = 8};
-                let page6Receiver = document.querySelector(".no_"+page6Num);
-                page6Receiver.innerHTML = '';
-                page6Receiver.appendChild(page6);
+                let touslesjoursNum = (88888+(8+((pageCount-8)*i)))%8
+                if (touslesjoursNum == 0){touslesjoursNum = 8};
+                let touslesjoursReceiver = document.querySelector(".no_"+touslesjoursNum);
+                touslesjoursReceiver.innerHTML = '';
+                touslesjoursReceiver.appendChild(touslesjours);
                 $('body').css({'background':'#F3E8DC'});
 
                 $('.navbtn_touslesjours').addClass('opa1').removeClass('opa04').parent().siblings().find('a').removeClass('opa1').addClass('opa04');
             };
-            //page7
+            //designWorks
             if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*6 && sctop < i*(toNextScroll*pageCount)+toNextScroll*7) {
-                let page7Num = (88888+(1+((pageCount-8)*i)))%8
-                if (page7Num == 0){page7Num = 8};
-                let page7Receiver = document.querySelector(".no_"+page7Num);
-                page7Receiver.innerHTML = '';
-                page7Receiver.appendChild(page7);
+                let designWorksNum = (88888+(1+((pageCount-8)*i)))%8
+                if (designWorksNum == 0){designWorksNum = 8};
+                let designWorksReceiver = document.querySelector(".no_"+designWorksNum);
+                designWorksReceiver.innerHTML = '';
+                designWorksReceiver.appendChild(designWorks);
                 $('body').css({'background':'#DE90D6'});
 
                 $('.navbtn_dsi').addClass('opa1').removeClass('opa04').parent().siblings().find('a').removeClass('opa1').addClass('opa04');
             };
-            //page8
+            //profile
             if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*7 && sctop < i*(toNextScroll*pageCount)+toNextScroll*8) {
-                let page8Num = (88888+(2+((pageCount-8)*i)))%8
-                if (page8Num == 0){page8Num = 8};
-                let page8Receiver = document.querySelector(".no_"+page8Num);
-                page8Receiver.innerHTML = '';
-                page8Receiver.appendChild(page8);
+                let profileNum = (88888+(2+((pageCount-8)*i)))%8
+                if (profileNum == 0){profileNum = 8};
+                let profileReceiver = document.querySelector(".no_"+profileNum);
+                profileReceiver.innerHTML = '';
+                profileReceiver.appendChild(profile);
                 $('body').css({'background':'#d1d1d1'})
 
                 $('.navbtn_prf').addClass('opa1').removeClass('opa04').parent().siblings().find('a').removeClass('opa1').addClass('opa04');
@@ -179,7 +183,7 @@ $(document).ready(function (){
                     };
                 });
             };
-            //intro + profile (page1 + 8)
+            //intro + profile (page1, 8)
             if ((sctop >= i*(toNextScroll*pageCount) && sctop < i*(toNextScroll*pageCount)+toNextScroll) || (sctop >= i*(toNextScroll*pageCount)+toNextScroll*7 && sctop < i*(toNextScroll*pageCount)+toNextScroll*8)) {
                 $('nav').stop().css({'left':'-6720px'});
                 document.addEventListener('mousemove', (e) => {
@@ -191,7 +195,7 @@ $(document).ready(function (){
                     };
                 });
             };
-            //intro + design + profile (page1 + 7 + 8)
+            //intro + design + profile (page1, 7, 8)
             if ((sctop >= i*(toNextScroll*pageCount) && sctop < i*(toNextScroll*pageCount)+toNextScroll) || (sctop >= i*(toNextScroll*pageCount)+toNextScroll*6 && sctop < i*(toNextScroll*pageCount)+toNextScroll*8)) {
                 $('.depth2').stop().slideUp(300);
                 $('.gnb>li:nth-of-type(2)').hover(function(){
