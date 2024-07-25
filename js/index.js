@@ -1,6 +1,8 @@
 $(document).ready(function (){
+    let didScroll;
+
     const pageCount = 8; // pageCount 총 페이지의 수
-    const toNextScroll = 333; // toNextScroll 다음 페이지로 넘어가기 위한 스크롤 입력 값
+    const toNextScroll = 250; // toNextScroll 다음 페이지로 넘어가기 위한 스크롤 입력 값
     const multiple = 20; // multiple 반복수
     const centerValue = 9; // centerValue multiple 값을 넘었을 경우 돌아올 가운데 값(0~multiple)
     $('body').css({'height':toNextScroll*pageCount*multiple+(window.innerHeight+(toNextScroll*2))});
@@ -12,21 +14,21 @@ $(document).ready(function (){
     const navbtn_int = document.querySelector('.navbtn_int');
     navbtn_int.onclick = () => {$(window).scrollTop(toNextScroll*pageCount*centerValue)};
     const navbtn_pub = document.querySelector('.navbtn_pub');
-    navbtn_pub.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+1))};
+    navbtn_pub.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+1)+1)};
         const navbtn_gnuboard = document.querySelector('.navbtn_gnuboard');
-        navbtn_gnuboard.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+1))};
+        navbtn_gnuboard.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+1)+1)};
         const navbtn_univ = document.querySelector('.navbtn_univ');
-        navbtn_univ.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+2))};
+        navbtn_univ.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+2)+1)};
         const navbtn_livart = document.querySelector('.navbtn_livart');
-        navbtn_livart.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+3))};
+        navbtn_livart.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+3)+1)};
         const navbtn_downy = document.querySelector('.navbtn_downy');
-        navbtn_downy.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+4))};
+        navbtn_downy.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+4)+1)};
         const navbtn_touslesjours = document.querySelector('.navbtn_touslesjours');
-        navbtn_touslesjours.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+5))};
+        navbtn_touslesjours.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+5)+1)};
     const navbtn_dsi = document.querySelector('.navbtn_dsi');
-    navbtn_dsi.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+6))};
+    navbtn_dsi.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+6)+1)};
     const navbtn_prf = document.querySelector('.navbtn_prf');
-    navbtn_prf.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+7))};
+    navbtn_prf.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+7)+1)};
 
     const intro = document.querySelector(".elementsWrap>.intro");
     const page2 = document.querySelector(".elementsWrap>.page2");
@@ -37,7 +39,11 @@ $(document).ready(function (){
     const page7 = document.querySelector(".elementsWrap>.page7");
     const page8 = document.querySelector(".elementsWrap>.page8");
 
-    $(window).on("scroll", function(){
+    window.addEventListener('scroll', function(){
+        didScroll = true;
+    })
+
+    function hasScrolled(){
         let sctop = $(this).scrollTop();
         if (sctop <= 1 || sctop >= toNextScroll*pageCount*multiple + toNextScroll){
             $(window).scrollTop(toNextScroll*pageCount*centerValue + 33);
@@ -195,7 +201,7 @@ $(document).ready(function (){
                 });
             };
         };
-    });
+    };
 
     $(".PUBImage").on("mouseenter", function(){
         let imgH=$(this).find("img").height();
@@ -223,6 +229,7 @@ $(document).ready(function (){
             prevEl: '.swiper-button-prev',
         },
     });
+
     $('.turnImg').hover(function(){
         $(this).find('img').css({'transform':'rotateY('+ 720 + 'deg' +')'});
         setTimeout(() => {
@@ -235,6 +242,7 @@ $(document).ready(function (){
         }, 275);
     });
 
+    //skillsLevel
     for (let k = 1 ; k <=8 ; k++){
         let n;
         $('.skillIcon:nth-of-type('+k+')').hover(function(){
@@ -296,4 +304,11 @@ $(document).ready(function (){
         item.addEventListener('mouseover', mouseOn);
         item.addEventListener('mouseleave', mouseLeave);
     })
+
+    setInterval(function(){
+        if(didScroll){
+            hasScrolled();
+            didScroll = false;
+        }
+    }, 100);
 });
