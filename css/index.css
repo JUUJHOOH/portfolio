@@ -2,15 +2,15 @@
 /* *{outline: 1px solid #6660;} */
 
 /* #allwrap {width: 1920px; height: 919px; overflow: hidden;} */
-*::-webkit-scrollbar {display: none;} /* CR SF OP EG */
-* {-ms-overflow-style: none; scrollbar-width: none; cursor: none;}/* IE FF */
+/* *::-webkit-scrollbar {display: none;} */ /* CR SF OP EG */
+/* * {-ms-overflow-style: none; scrollbar-width: none; cursor: none;} *//* IE FF */
 
 #mouse {width: 200px; height: 200px; position: fixed; transform: translate(-50%, -50%); z-index: 9999; pointer-events: none;}
 #mouse>div {opacity: 1;}
 #mouse>div>div[class^=circle] {background: radial-gradient(#00000007 0%, #00000007 8%, #0000 8%, #0000 100%); border: none; transition: all 0.2s;}
 .mousehover {background: radial-gradient(#7cda3f30 0%, #7cda3f30 8%, #0000 8%, #0000 100%) !important; transform: scale(2.5);}
 
-body {height: unset; transition: all 0.7s 0.3s;}
+body {height: unset; transition: all 0.7s;}
 /* roundboard */
 #roundboard {width: 5948px; height: 5948px; position: fixed; top: 50%; left: 0; transform: translate(calc(-100% + 960px),-50%) rotate(0deg); z-index: 999;}
 #roundboard>div {width: 101%; height: 1500px; display: flex; align-items: center; justify-content: center; position: absolute; font-size: 50px;}

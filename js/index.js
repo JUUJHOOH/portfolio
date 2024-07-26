@@ -4,8 +4,16 @@ $(document).ready(function (){
     const procedure = ['intro'/* ,'NaGyeongStone' */,'gnuboard','univ','livart','downy','touslesjours','designWorks','profile'];
     const pageCount = 8; // pageCount 총 페이지의 수
     const toNextScroll = 250; // toNextScroll 다음 페이지로 넘어가기 위한 스크롤 입력 값
-    const multiple = 20; // multiple 반복수
-    const centerValue = 9; // centerValue multiple 값을 넘었을 경우 돌아올 가운데 값(0~multiple)
+    const multiple = 11; // multiple 반복수
+    const centerValue = 5; // centerValue multiple 값을 넘었을 경우 돌아올 가운데 값(0~multiple)
+    const gnuboardProcedure = procedure.indexOf('gnuboard');
+    const univProcedure = procedure.indexOf('univ');
+    const livartProcedure = procedure.indexOf('livart');
+    const downyProcedure = procedure.indexOf('downy');
+    const touslesjoursProcedure = procedure.indexOf('touslesjours');
+    const designWorksProcedure = procedure.indexOf('designWorks');
+    const profileProcedure = procedure.indexOf('profile');
+
     $('body').css({'height':toNextScroll*pageCount*multiple+(window.innerHeight+(toNextScroll*2))});// endPoint에서 startPoint로 자연스럽게 넘어가기 위한 body높이
     $(window).scrollTop(toNextScroll*pageCount*centerValue);
     setTimeout (() => {
@@ -19,19 +27,19 @@ $(document).ready(function (){
 
 
         const navbtn_gnuboard = document.querySelector('.navbtn_gnuboard');
-        navbtn_gnuboard.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+procedure.indexOf('gnuboard'))+1)};
+        navbtn_gnuboard.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+gnuboardProcedure)+1)};
         const navbtn_univ = document.querySelector('.navbtn_univ');
-        navbtn_univ.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+procedure.indexOf('univ'))+1)};
+        navbtn_univ.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+univProcedure)+1)};
         const navbtn_livart = document.querySelector('.navbtn_livart');
-        navbtn_livart.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+procedure.indexOf('livart'))+1)};
+        navbtn_livart.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+livartProcedure)+1)};
         const navbtn_downy = document.querySelector('.navbtn_downy');
-        navbtn_downy.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+procedure.indexOf('downy'))+1)};
+        navbtn_downy.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+downyProcedure)+1)};
         const navbtn_touslesjours = document.querySelector('.navbtn_touslesjours');
-        navbtn_touslesjours.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+procedure.indexOf('touslesjours'))+1)};
+        navbtn_touslesjours.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+touslesjoursProcedure)+1)};
     const navbtn_dsi = document.querySelector('.navbtn_dsi');
-    navbtn_dsi.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+procedure.indexOf('designWorks'))+1)};
+    navbtn_dsi.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+designWorksProcedure)+1)};
     const navbtn_prf = document.querySelector('.navbtn_prf');
-    navbtn_prf.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+procedure.indexOf('profile'))+1)};
+    navbtn_prf.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+profileProcedure)+1)};
 
     const intro = document.querySelector(".elementsWrap>.intro");
     const NaGyeongStone = document.querySelector(".elementsWrap>.NaGyeongStone");
@@ -50,7 +58,7 @@ $(document).ready(function (){
     function hasScrolled(){
         let sctop = $(this).scrollTop();
         if (sctop <= 1 || sctop >= toNextScroll*pageCount*multiple + toNextScroll){
-            $(window).scrollTop(toNextScroll*pageCount*centerValue + 33);
+            $(window).scrollTop(toNextScroll*pageCount*centerValue + 125);
             $('#roundboard').css({'transition':'none'});
             $('#roundboard>div').css({'transition':'none'});
             setTimeout (() => {
@@ -83,7 +91,7 @@ $(document).ready(function (){
                 $('.navbtn_int').addClass('opa1').removeClass('opa04').parent().siblings().find('a').removeClass('opa1').addClass('opa04');
             };
             //gnuboard
-            if (sctop >= i*(toNextScroll*pageCount)+toNextScroll && sctop < i*(toNextScroll*pageCount)+toNextScroll*2) {
+            if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*gnuboardProcedure && sctop < i*(toNextScroll*pageCount)+toNextScroll*(gnuboardProcedure+1)) {
                 let gnuboardNum = (88888+(3+((pageCount-8)*i)))%8
                 let gnuboardReceiver = document.querySelector(".no_"+gnuboardNum);
                 gnuboardReceiver.innerHTML = '';
@@ -93,7 +101,7 @@ $(document).ready(function (){
                 $('.navbtn_gnuboard').addClass('opa1').removeClass('opa04').parent().siblings().find('a').removeClass('opa1').addClass('opa04');
             };
             //univ
-            if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*2 && sctop < i*(toNextScroll*pageCount)+toNextScroll*3) {
+            if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*univProcedure && sctop < i*(toNextScroll*pageCount)+toNextScroll*(univProcedure+1)) {
                 let univNum = (88888+(4+((pageCount-8)*i)))%8
                 let univReceiver = document.querySelector(".no_"+univNum);
                 univReceiver.innerHTML = '';
@@ -103,7 +111,7 @@ $(document).ready(function (){
                 $('.navbtn_univ').addClass('opa1').removeClass('opa04').parent().siblings().find('a').removeClass('opa1').addClass('opa04');
             };
             //livart
-            if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*3 && sctop < i*(toNextScroll*pageCount)+toNextScroll*4) {
+            if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*livartProcedure && sctop < i*(toNextScroll*pageCount)+toNextScroll*(livartProcedure+1)) {
                 let livartNum = (88888+(5+((pageCount-8)*i)))%8
                 let livartReceiver = document.querySelector(".no_"+livartNum);
                 livartReceiver.innerHTML = '';
@@ -113,7 +121,7 @@ $(document).ready(function (){
                 $('.navbtn_livart').addClass('opa1').removeClass('opa04').parent().siblings().find('a').removeClass('opa1').addClass('opa04');
             };
             //downy
-            if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*4 && sctop < i*(toNextScroll*pageCount)+toNextScroll*5) {
+            if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*downyProcedure && sctop < i*(toNextScroll*pageCount)+toNextScroll*(downyProcedure+1)) {
                 let downyNum = (88888+(6+((pageCount-8)*i)))%8
                 let downyReceiver = document.querySelector(".no_"+downyNum);
                 downyReceiver.innerHTML = '';
@@ -123,7 +131,7 @@ $(document).ready(function (){
                 $('.navbtn_downy').addClass('opa1').removeClass('opa04').parent().siblings().find('a').removeClass('opa1').addClass('opa04');
             };
             //touslesjours
-            if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*5 && sctop < i*(toNextScroll*pageCount)+toNextScroll*6) {
+            if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*touslesjoursProcedure && sctop < i*(toNextScroll*pageCount)+toNextScroll*(touslesjoursProcedure+1)) {
                 let touslesjoursNum = (88888+(7+((pageCount-8)*i)))%8
                 let touslesjoursReceiver = document.querySelector(".no_"+touslesjoursNum);
                 touslesjoursReceiver.innerHTML = '';
@@ -133,7 +141,7 @@ $(document).ready(function (){
                 $('.navbtn_touslesjours').addClass('opa1').removeClass('opa04').parent().siblings().find('a').removeClass('opa1').addClass('opa04');
             };
             //designWorks
-            if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*6 && sctop < i*(toNextScroll*pageCount)+toNextScroll*7) {
+            if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*designWorksProcedure && sctop < i*(toNextScroll*pageCount)+toNextScroll*(designWorksProcedure+1)) {
                 let designWorksNum = (88888+(0+((pageCount-8)*i)))%8
                 let designWorksReceiver = document.querySelector(".no_"+designWorksNum);
                 designWorksReceiver.innerHTML = '';
@@ -143,7 +151,7 @@ $(document).ready(function (){
                 $('.navbtn_dsi').addClass('opa1').removeClass('opa04').parent().siblings().find('a').removeClass('opa1').addClass('opa04');
             };
             //profile
-            if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*7 && sctop < i*(toNextScroll*pageCount)+toNextScroll*8) {
+            if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*profileProcedure && sctop < i*(toNextScroll*pageCount)+toNextScroll*(profileProcedure+1)) {
                 let profileNum = (88888+(1+((pageCount-8)*i)))%8
                 let profileReceiver = document.querySelector(".no_"+profileNum);
                 profileReceiver.innerHTML = '';
@@ -154,7 +162,7 @@ $(document).ready(function (){
             };
 
             //puvlishing (page 2~6)
-            if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*1 && sctop < i*(toNextScroll*pageCount)+toNextScroll*6) {
+            if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*1 && sctop < i*(toNextScroll*pageCount)+toNextScroll*(touslesjoursProcedure+1)) {
                 $('.depth2').stop().slideDown(600);
                 $('.navbtn_pub').addClass('opa1').removeClass('opa04').parent().siblings().find('a').removeClass('opa1').addClass('opa04');
                 $('.gnb>li:nth-of-type(2)').hover(function(){
@@ -164,7 +172,7 @@ $(document).ready(function (){
                 });
             };
             //publishing + designWorks (page 2~7)
-            if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*1 && sctop < i*(toNextScroll*pageCount)+toNextScroll*7) {
+            if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*1 && sctop < i*(toNextScroll*pageCount)+toNextScroll*(designWorksProcedure+1)) {
                 $('nav').stop().css({'left':'-6360px'});
                 document.addEventListener('mousemove', (e) => {
                     $('#mouse').css({left:e.clientX, top:e.clientY});
@@ -176,7 +184,7 @@ $(document).ready(function (){
                 });
             };
             //intro + profile (intro, 8)
-            if ((sctop >= i*(toNextScroll*pageCount) && sctop < i*(toNextScroll*pageCount)+toNextScroll) || (sctop >= i*(toNextScroll*pageCount)+toNextScroll*7 && sctop < i*(toNextScroll*pageCount)+toNextScroll*8)) {
+            if ((sctop >= i*(toNextScroll*pageCount) && sctop < i*(toNextScroll*pageCount)+toNextScroll) || (sctop >= i*(toNextScroll*pageCount)+toNextScroll*profileProcedure && sctop < i*(toNextScroll*pageCount)+toNextScroll*(profileProcedure+1))) {
                 $('nav').stop().css({'left':'-6720px'});
                 document.addEventListener('mousemove', (e) => {
                     $('#mouse').css({left:e.clientX, top:e.clientY});
@@ -188,7 +196,7 @@ $(document).ready(function (){
                 });
             };
             //intro + design + profile (intro, 7, 8)
-            if ((sctop >= i*(toNextScroll*pageCount) && sctop < i*(toNextScroll*pageCount)+toNextScroll) || (sctop >= i*(toNextScroll*pageCount)+toNextScroll*6 && sctop < i*(toNextScroll*pageCount)+toNextScroll*8)) {
+            if ((sctop >= i*(toNextScroll*pageCount) && sctop < i*(toNextScroll*pageCount)+toNextScroll) || (sctop >= i*(toNextScroll*pageCount)+toNextScroll*designWorksProcedure && sctop < i*(toNextScroll*pageCount)+toNextScroll*(profileProcedure+1))) {
                 $('.depth2').stop().slideUp(300);
                 $('.gnb>li:nth-of-type(2)').hover(function(){
                     $('.depth2').stop().slideDown(450);
