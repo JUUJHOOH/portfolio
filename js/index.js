@@ -82,7 +82,7 @@ $(document).ready(function (){
             };
             //intro
             if (sctop >= i*(toNextScroll*pageCount) && sctop < i*(toNextScroll*pageCount)+toNextScroll) {
-                let introNum = (88888+(2+((pageCount-8)*i)))%8
+                let introNum = (88888+2+((pageCount-8)*i))%8
                 let introReceiver = document.querySelector(".no_"+introNum);
                 introReceiver.innerHTML = '';
                 introReceiver.appendChild(intro);
@@ -92,7 +92,7 @@ $(document).ready(function (){
             };
             //gnuboard
             if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*gnuboardProcedure && sctop < i*(toNextScroll*pageCount)+toNextScroll*(gnuboardProcedure+1)) {
-                let gnuboardNum = (88888+(3+((pageCount-8)*i)))%8
+                let gnuboardNum = (88888+3+((pageCount-8)*i))%8
                 let gnuboardReceiver = document.querySelector(".no_"+gnuboardNum);
                 gnuboardReceiver.innerHTML = '';
                 gnuboardReceiver.appendChild(gnuboard);
@@ -102,7 +102,7 @@ $(document).ready(function (){
             };
             //univ
             if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*univProcedure && sctop < i*(toNextScroll*pageCount)+toNextScroll*(univProcedure+1)) {
-                let univNum = (88888+(4+((pageCount-8)*i)))%8
+                let univNum = (88888+4+((pageCount-8)*i))%8
                 let univReceiver = document.querySelector(".no_"+univNum);
                 univReceiver.innerHTML = '';
                 univReceiver.appendChild(univ);
@@ -112,7 +112,7 @@ $(document).ready(function (){
             };
             //livart
             if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*livartProcedure && sctop < i*(toNextScroll*pageCount)+toNextScroll*(livartProcedure+1)) {
-                let livartNum = (88888+(5+((pageCount-8)*i)))%8
+                let livartNum = (88888+5+((pageCount-8)*i))%8
                 let livartReceiver = document.querySelector(".no_"+livartNum);
                 livartReceiver.innerHTML = '';
                 livartReceiver.appendChild(livart);
@@ -122,7 +122,7 @@ $(document).ready(function (){
             };
             //downy
             if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*downyProcedure && sctop < i*(toNextScroll*pageCount)+toNextScroll*(downyProcedure+1)) {
-                let downyNum = (88888+(6+((pageCount-8)*i)))%8
+                let downyNum = (88888+6+((pageCount-8)*i))%8
                 let downyReceiver = document.querySelector(".no_"+downyNum);
                 downyReceiver.innerHTML = '';
                 downyReceiver.appendChild(downy);
@@ -132,7 +132,7 @@ $(document).ready(function (){
             };
             //touslesjours
             if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*touslesjoursProcedure && sctop < i*(toNextScroll*pageCount)+toNextScroll*(touslesjoursProcedure+1)) {
-                let touslesjoursNum = (88888+(7+((pageCount-8)*i)))%8
+                let touslesjoursNum = (88888+7+((pageCount-8)*i))%8
                 let touslesjoursReceiver = document.querySelector(".no_"+touslesjoursNum);
                 touslesjoursReceiver.innerHTML = '';
                 touslesjoursReceiver.appendChild(touslesjours);
@@ -142,7 +142,7 @@ $(document).ready(function (){
             };
             //designWorks
             if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*designWorksProcedure && sctop < i*(toNextScroll*pageCount)+toNextScroll*(designWorksProcedure+1)) {
-                let designWorksNum = (88888+(0+((pageCount-8)*i)))%8
+                let designWorksNum = (88888+0+((pageCount-8)*i))%8
                 let designWorksReceiver = document.querySelector(".no_"+designWorksNum);
                 designWorksReceiver.innerHTML = '';
                 designWorksReceiver.appendChild(designWorks);
@@ -152,7 +152,7 @@ $(document).ready(function (){
             };
             //profile
             if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*profileProcedure && sctop < i*(toNextScroll*pageCount)+toNextScroll*(profileProcedure+1)) {
-                let profileNum = (88888+(1+((pageCount-8)*i)))%8
+                let profileNum = (88888+1+((pageCount-8)*i))%8
                 let profileReceiver = document.querySelector(".no_"+profileNum);
                 profileReceiver.innerHTML = '';
                 profileReceiver.appendChild(profile);
