@@ -87,6 +87,8 @@ nav {width: 6720px; height: 6720px; position: fixed; z-index: 1000; left: -6360p
 .gnuboard dl dd .palette:nth-of-type(1) {background-color: #FEB203; box-shadow: 0 0 10px #fff;}
 .gnuboard dl dd .palette:nth-of-type(2) {background-color: #fff;}
 .gnuboard dl dd .palette:nth-of-type(3) {background-color: #333;}
+.NaGyeongStone dl dd .palette:nth-of-type(1) {background-color: #FF7789;}
+.NaGyeongStone dl dd .palette:nth-of-type(2) {background-color: #fff;}
 
 /* circlegroup */
 .circlegroup {width: 950px; height: 950px; position: absolute; right: 120px; top: 50%; transform: translate(0,-50%);}
@@ -148,16 +150,16 @@ div[class^=circlebox] {width: 100%; height: 100%; position: absolute; opacity: 0
 .profile {width: 101%; height: 699px; position: relative; display: flex; justify-content: center; align-items: center; font-family: "Preahvihear", sans-serif; transition: all 1s; background-color: #fdfdfd;}
 .inner {width: 1200px; color: #333; display: flex; justify-content: space-between; align-items: center;}
 .profile .proLWrap {height: 552px;}
-.profile .proLWrap p {font-size: 25px; line-height: 43px; margin-top: 34px;}
+.profile .proLWrap p {font-size: 22px; line-height: 35px; margin-top: 28px;}
 .profile figure {width: 455px; height: 389px; position: relative; display: flex; justify-content: center;}
 .profile figure .leaf {width: 100%;height: 100%;  background: url(../images/leaf.png) no-repeat; background-size: 100% 100%; position: absolute; z-index: 5;}
 .profile figure .proimage {width: 345px; height: 345px; background: url(../images/profile.jpg) no-repeat; border-radius: 50%; box-shadow: #00000040 0 0 20px 0;}
 .profile .proRWrap {margin-right: 194px;}
 .profile .proRWrap>dl {margin-bottom: 27px;}
-.profile .proRWrap>dl>dt {font-size: 37px; line-height: 65px;}
-.profile .proRWrap>dl>dd {font-family: "Roboto Slab", 'Noto Sans KR', sans-serif; font-size: 17px; line-height: 21px; margin: 5px 0;}
+.profile .proRWrap>dl>dt {font-size: 36px; line-height: 64px;}
+.profile .proRWrap>dl>dd {font-family: "Roboto Slab", 'Noto Sans KR', sans-serif; font-size: 16px; line-height: 21px; margin: 5px 0;}
 .profile .proRWrap>dl>dd:nth-of-type(2) {margin-bottom: 15px;}
-.profile .proRWrap>dl>dd span.font24px {display: inline-block; width: 60%; font-size: 25px; line-height: 32px;}
+.profile .proRWrap>dl>dd span.txtLt {display: inline-block; width: 60%; font-size: 22px; line-height: 32px;}
 .profile .proRWrap>dl>dd span.txtRt {display: inline-block; width: 40%; text-align: right;}
 .skillIcons {display: flex; width: 400px; flex-wrap: wrap;}
 .skillIcon {width: 50px; height: 50px; border-radius: 50%; position: relative; margin: 5px 30px 30px 0;}
