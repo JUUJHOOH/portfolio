@@ -97,7 +97,7 @@ $(document).ready(function (){
                 let NaGyeongStoneReceiver = document.querySelector(".no_"+NaGyeongStoneNum);
                 NaGyeongStoneReceiver.innerHTML = '';
                 NaGyeongStoneReceiver.appendChild(NaGyeongStone);
-                $('body').css({'background':'#FF7789'})
+                $('body').css({'background':'#FF778980'})
 
                 $('.navbtn_NaGyeongStone').addClass('opa1').removeClass('opa04').parent().siblings().find('a').removeClass('opa1').addClass('opa04');
             };
