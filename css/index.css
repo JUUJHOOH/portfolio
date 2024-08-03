@@ -2,8 +2,8 @@
 /* *{outline: 1px solid #6660;} */
 
 /* #allwrap {width: 1920px; height: 919px; overflow: hidden;} */
-/* *::-webkit-scrollbar {display: none;} */ /* CR SF OP EG */
-/* * {-ms-overflow-style: none; scrollbar-width: none; cursor: none;} *//* IE FF */
+*::-webkit-scrollbar {display: none;} /* CR SF OP EG */
+* {-ms-overflow-style: none; scrollbar-width: none; cursor: none;}/* IE FF */
 
 #mouse {width: 200px; height: 200px; position: fixed; transform: translate(-50%, -50%); z-index: 9999; pointer-events: none;}
 #mouse>div {opacity: 1;}
