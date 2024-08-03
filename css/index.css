@@ -76,7 +76,7 @@ nav {width: 6720px; height: 6720px; position: fixed; z-index: 1000; left: -6360p
 .livart dl dd .palette:nth-of-type(2) {background-color: #005D85;}
 .downy dl dd .palette {background-color: #0B265D;}
 .downy dl dd .palette:nth-of-type(2) {background-color: #fff;}
-.downy dl dd .palette:nth-of-type(3) {background-color: #DEF6FF;}
+.downy dl dd .palette:nth-of-type(3) {background-color: #DEF6FF; box-shadow: 0 0 10px #fff;}
 .downy dl dd .palette:nth-of-type(4) {background-color: #D9DCE5;}
 .touslesjours dl dd .palette {background-color: #0D4633;}
 .touslesjours dl dd .palette:nth-of-type(2) {background-color: #F5EDE5;}
