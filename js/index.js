@@ -157,7 +157,7 @@ $(document).ready(function (){
                 let designWorksReceiver = document.querySelector(".no_"+designWorksNum);
                 designWorksReceiver.innerHTML = '';
                 designWorksReceiver.appendChild(designWorks);
-                $('body').css({'background':'#DE90D6'});
+                $('body').css({'background':'#c86cbc'});
 
                 $('.navbtn_dsi').addClass('opa1').removeClass('opa04').parent().siblings().find('a').removeClass('opa1').addClass('opa04');
             };
@@ -172,7 +172,7 @@ $(document).ready(function (){
                 $('.navbtn_prf').addClass('opa1').removeClass('opa04').parent().siblings().find('a').removeClass('opa1').addClass('opa04');
             };
 
-            //puvlishing (page 2~6)
+            //puvlishing (page 2~7)
             if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*1 && sctop < i*(toNextScroll*pageCount)+toNextScroll*(touslesjoursProcedure+1)) {
                 $('.depth2').stop().slideDown(600);
                 $('.navbtn_pub').addClass('opa1').removeClass('opa04').parent().siblings().find('a').removeClass('opa1').addClass('opa04');
@@ -182,7 +182,7 @@ $(document).ready(function (){
                     $('.depth2').stop().slideDown(600);
                 });
             };
-            //publishing + designWorks (page 2~7)
+            //publishing + designWorks (page 2~8)
             if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*1 && sctop < i*(toNextScroll*pageCount)+toNextScroll*(designWorksProcedure+1)) {
                 $('nav').stop().css({'left':'-6360px'});
                 document.addEventListener('mousemove', (e) => {
@@ -194,7 +194,7 @@ $(document).ready(function (){
                     };
                 });
             };
-            //intro + profile (intro, 8)
+            //intro + profile (intro, 9)
             if ((sctop >= i*(toNextScroll*pageCount) && sctop < i*(toNextScroll*pageCount)+toNextScroll) || (sctop >= i*(toNextScroll*pageCount)+toNextScroll*profileProcedure && sctop < i*(toNextScroll*pageCount)+toNextScroll*(profileProcedure+1))) {
                 $('nav').stop().css({'left':'-6720px'});
                 document.addEventListener('mousemove', (e) => {
@@ -206,7 +206,7 @@ $(document).ready(function (){
                     };
                 });
             };
-            //intro + design + profile (intro, 7, 8)
+            //intro + design + profile (intro, 8, 9)
             if ((sctop >= i*(toNextScroll*pageCount) && sctop < i*(toNextScroll*pageCount)+toNextScroll) || (sctop >= i*(toNextScroll*pageCount)+toNextScroll*designWorksProcedure && sctop < i*(toNextScroll*pageCount)+toNextScroll*(profileProcedure+1))) {
                 $('.depth2').stop().slideUp(300);
                 $('.gnb>li:nth-of-type(2)').hover(function(){
