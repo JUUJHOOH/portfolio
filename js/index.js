@@ -1,11 +1,12 @@
 $(document).ready(function (){
     let didScroll;
 
-    const procedure = ['intro'/* ,'NaGyeongStone' */,'gnuboard','univ','livart','downy','touslesjours','designWorks','profile'];
-    const pageCount = 8; // pageCount 총 페이지의 수
+    const procedure = ['intro','NaGyeongStone','gnuboard','univ','livart','downy','touslesjours','designWorks','profile'];
+    const pageCount = 9; // pageCount 총 페이지의 수
     const toNextScroll = 250; // toNextScroll 다음 페이지로 넘어가기 위한 스크롤 입력 값
     const multiple = 11; // multiple 반복수
     const centerValue = 5; // centerValue multiple 값을 넘었을 경우 돌아올 가운데 값(0~multiple)
+    const NaGyeongStoneProcedure = procedure.indexOf('NaGyeongStone');
     const gnuboardProcedure = procedure.indexOf('gnuboard');
     const univProcedure = procedure.indexOf('univ');
     const livartProcedure = procedure.indexOf('livart');
@@ -24,8 +25,8 @@ $(document).ready(function (){
     navbtn_int.onclick = () => {$(window).scrollTop(toNextScroll*pageCount*centerValue)};
     const navbtn_pub = document.querySelector('.navbtn_pub');
     navbtn_pub.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+1)+1)};
-
-
+        const navbtn_NaGyeongStone = document.querySelector('.navbtn_NaGyeongStone');
+        navbtn_NaGyeongStone.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+NaGyeongStoneProcedure)+1)};
         const navbtn_gnuboard = document.querySelector('.navbtn_gnuboard');
         navbtn_gnuboard.onclick = () => {$(window).scrollTop(toNextScroll*((pageCount*centerValue)+gnuboardProcedure)+1)};
         const navbtn_univ = document.querySelector('.navbtn_univ');
@@ -89,6 +90,16 @@ $(document).ready(function (){
                 $('body').css({'background':'#fff'});
 
                 $('.navbtn_int').addClass('opa1').removeClass('opa04').parent().siblings().find('a').removeClass('opa1').addClass('opa04');
+            };
+            //NaGyeongStone
+            if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*NaGyeongStoneProcedure && sctop < i*(toNextScroll*pageCount)+toNextScroll*(NaGyeongStoneProcedure+1)) {
+                let NaGyeongStoneNum = (88888+(NaGyeongStoneProcedure+2)+((pageCount-8)*i))%8
+                let NaGyeongStoneReceiver = document.querySelector(".no_"+NaGyeongStoneNum);
+                NaGyeongStoneReceiver.innerHTML = '';
+                NaGyeongStoneReceiver.appendChild(NaGyeongStone);
+                $('body').css({'background':'#FF7789'})
+
+                $('.navbtn_NaGyeongStone').addClass('opa1').removeClass('opa04').parent().siblings().find('a').removeClass('opa1').addClass('opa04');
             };
             //gnuboard
             if (sctop >= i*(toNextScroll*pageCount)+toNextScroll*gnuboardProcedure && sctop < i*(toNextScroll*pageCount)+toNextScroll*(gnuboardProcedure+1)) {
